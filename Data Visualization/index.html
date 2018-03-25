@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exploring Hollywood's Appeal to an International Audience Through Foreign Actors</title>
+  <meta charset="utf-8">
+
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-array.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <link href="d3-geomap/css/d3.geomap.css" rel="stylesheet">
+<!--   <script src="d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
+  <script src="d3-geomap/js/d3.geomap.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Faustina" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+  <style type = "text/css">
+  
+  body {
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+li { 
+    font-family: 'Faustina', serif;
+} 
+
+  h1 {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  h3, big {
+    font-family: 'Shrikhand', cursive;
+  }
+
+  p, h4, table.heatmap, text {
+    font-family: 'Faustina', serif;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  h4.title, #stacked-dropdown, #scatter-dropdown, table.heatmap {
+    text-align: center;
+  }
+
+  img {
+    height: 90%;
+    width: 90%;
+  }
+
+  #dotchart text {
+    font: 10px sans-serif;
+  }
+
+  table.heatmap, th.heatmap, td.heatmap{
+    border: 1px gray solid;
+    border-collapse: collapse;
+    width: 50%
+  }
+
+  td.heatmap, th.heatmap {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .chart rect {
+    fill: #82CAFF;
+  }
+
+  .chart text {
+    font: 10px sans-serif;
+    text-anchor: start;
+  }
+
+  #stacked-bars-movie {
+    text-anchor: start;
+  }
+
+  #stacked-bar {
+    margin-left: -200px;
+    height: 720px;
+  }
+
+  #scatter-plot {
+    margin-left: -100px;
+  }
+
+  .scatter-main text {
+    font: 10px sans-serif;  
+  }
+
+  .scatter-axis line, .scatter-axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+  }
+
+  .scatter-dots {
+    fill: steelblue;
+  }
+
+  .scatter-dots:hover{
+    fill: orange;
+  }
+
+  .histaxis path,
+  .histaxis line {
+      fill: none;
+      stroke: #8C8C8C;
+      shape-rendering: crispEdges;
+  }
+  .histaxis text {
+    font-size: 10px;
+  }
+/*  .histactors_2017 {
+    fill: #66B2FF;
+    color: #3399FF;
+    opacity: 1;
+  }*/
+  .histenter {
+    fill: #66B2FF;
+    }
+
+  #histdropdown {
+    margin-top: 5px;
+    /*margin-left: 850px;*/
+    margin-bottom: 0px;
+  }
+
+      div.dbo1 {
+        color: #FF0099;
+        display: inline;
+      }
+      div.dbo2 {
+        color: #FF0099;
+        display: inline;
+      }
+      div.dbo3 {
+        color: #FF0099;
+        display: inline;
+      }
+      div.bo1 {
+        color: #0099FF;
+        display: inline;
+      }
+      div.bo2 {
+        color: #0099FF;
+        display: inline;
+      }
+      div.bo3 {
+        color: #0099FF;
+        display: inline;
+      }
+
+/*      svg {
+        display: block;
+        margin: 0 auto;
+      }*/
+
+      circle {
+        stroke-width: 1;
+      }
+
+      circle.dbo1 {
+        fill: #FF0099;
+      }
+      circle.dbo2 {
+        fill: #FF0099;
+      }
+      circle.dbo3 {
+        fill: #FF0099;
+      }
+
+      circle.bo1 {
+        fill: #0099FF;
+      }
+      circle.bo2 {
+        fill: #0099FF;
+      }
+      circle.bo3 {
+        fill: #0099FF;
+      }
+
+      circle:hover {
+        opacity: .6;
+      }
+
+      line.between {
+        stroke: black;
+        pointer-events: none;
+      }
+
+      .dotaxis path,
+      .dotaxis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+
+      .dotaxis text {
+        font-family: sans-serif;
+        font-size: 11px;
+      }
+
+      .dotxlabel {
+        font-famile: sans-serif;
+        font-size: 11px;
+        color: gray;
+      }
+
+
+  .tooltip {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    pointer-events: none;
+    font: 11px sans-serif;
+    padding: 2px; 
+    background-color:white;
+    border: 1px solid gray;
+  }
+.barbtn {
+        background-color: white;
+        color: black;
+        border: 2px solid #660066;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-right: 8px;
+        padding-bottom: 3px;
+        padding-left: 8px;
+      }
+      .barbtn:hover {
+        background-color: #E5CCFF; 
+        cursor:pointer;
+      }
+
+      table{
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td.actorschart{
+        font-size: 0.8rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 500px;
+        border-bottom: 1px solid #404040;
+        color: #000066;
+        height: 35px;
+      }
+
+      .front-curve{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      .back-curve{
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      .continent-controls{
+        /*width: 30%;*/
+        display: flex;
+        margin: 0 auto;
+        /*font-family: 'Helvetica';*/
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      a.Continent{
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        border: 1.4px solid #A0A0A0;
+        margin-left: -1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+      }
+
+      a.Continent:hover{
+        font-weight: bold;
+        color: #000066;
+      }
+      a.Continent:active{
+        background-color: #F5F5F5;
+        font-weight: 500;
+        color: black;
+        box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+        border-color: #adadad;
+      }
+
+      a.Continent.selected{
+        background-color: #F5F5F5;
+        font-weight: 500;
+        color: black;
+        box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+        border-color: #adadad;
+      }
+
+      th.actorschart{
+        text-align: left;
+        /*font-family: $atlas;*/
+        font-size: 0.9rem;
+        font-weight: bold;
+        letter-spacing: 0px;
+        line-height: 1.5rem; 
+        border-bottom: 2px solid #404040;
+      }
+
+      tr.actorschart, th.actorschart:nth-child(1){
+        width: 2rem;
+      }
+      tr.actorschart, th.actorschart:nth-child(3){
+        width: 400px;
+      }
+
+      thead, tr.actorschart{
+        border-bottom: 1px solid gray;
+      }
+
+        .bar{
+          padding-left: 5px;
+          text-align: left;
+          padding-bottom: 1px;
+          height: 1.7rem;
+          margin-top: 1px;
+          margin-bottom: 0px;
+        }
+
+        .bar span{
+          /*text-anchor: start;*/
+          color: #000066;
+          font-size: .9rem;
+          line-height: 2;
+          font-weight: 300;
+          padding-left: 3px;
+        }
+    .legendcirclepink {
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background: #FF0099;
+      display:inline-block;
+    }
+    .legendcircleblue {
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background: #0099FF;
+      display:inline-block;
+    }
+
+    .dotlegend{
+      font-family: sans-serif;
+      font-size: 11px;
+    }
+    .grid {
+           display: grid;
+           grid-gap: 5px;
+           grid-template-columns: 60px 60px 60px 60px 60px 60px;
+           width: 385px;
+           grid-auto-rows: 80px;
+        }
+        .movie {
+           border-radius: 0px;
+           padding: 0.5em;
+           background-color: #808080;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+           position: relative;
+        }
+        .gridtooltip {
+          position: absolute;
+          width: 300px;
+          height: auto;
+          pointer-events: none;
+          font: 11px sans-serif;
+          padding: 2px; 
+          background-color:white;
+        }
+</style>
+</head>
+<body>
+  <h1>Exploring Hollywood's Appeal to an International Audience Through Foreign Actors</h1>
+  <p>There's no denying that Hollywood is internationally acclaimed. According to the <a href="http://www.latimes.com/entertainment/movies/la-ca-mn-selling-films-abroad-20160417-story.html">LA Times</a>, “Worldwide ticket sales reached a record-breaking $38.3 billion [in 2015]. More than 70% of the film industry’s box office is generated overseas.” But how does Hollywood attempt to appeal to an international audience? We suspect that foreign actors may play a role in Hollywood strategies to garner international attention as seemingly more and more foreign actors are seen on the red carpet.</p>
+  <p>Drawing from discussions around gender representation as well as racial representation inside the U.S., we want to extrapolate and observe the foreign actors that are active in Hollywood. Some big questions include: </p>
+  <p>Is there a significant relationship between the presence of a foreign actor in a Hollywood movie and its success in the foreign actor’s nation?</p>
+  <p>Are there thresholds such as actor’s screen time/amount of lines that influence box office success?</p>
+  <p>What other factors seem to be at play when choosing foreign actors?</p>
+  <h3>Data Collecting</h3>
+  <p>The greatest reason behind why this area of Hollywood has not been looked into is due to the lack of consolidated data. No one has gone to the extent of looking into actors' nationalities and ethnicities when observing representation. As a result, much of our time was spent on collecting data around movies, actors, their nationalities, box office success in respective countries, as well as scripts.</p>
+  <h4>What does it mean to be a "foreign actor"?</h4>
+  <p>For our studies, since we are primarily interested in the influence of foreign actors on the movie's success in their homeland, we defined foreign actor to be an actor with a non-US citizenship. As a result, we needed the assistance of Wikipedia/Wikidata to help us identify people's country of citizenship.</p>
+  <p>In total, we collected the top 150 grossing movies worldwide for the past 10 years (2007-2017), totaling to <big>1500 movies</big>, <big>22,018 actors</big> in the main cast of these movies along with their nationalities, <big>60,747 box office reports</big> of these movies around the world, and <big>391 scripts.</big></p>
+  <p>Our main sources of data come from the following: IMDB, TMDB, Box Office Mojo, and Wikipedia, and we created our own Python and R scripts to scrape the web and retrieve this data for us.</p>
+  <h3>Where do Foreign Actors Come From?</h3>
+  <p>To no surprise, we find that the top 3 countries with foreign actors in Hollywood are the UK, Canada, and Australia. The reason this is no surprise is that they are primarily English-speaking countries. We proceeded to analyze below what countries come afterwards with top foreign actors in Hollywood with a heat map. As shown below, Asia appears to be the continent with the most number of foreign actors after North America, since Mexico also has a lot of foreign actors. Certain countries in each continent are not represented in this heat map, begging the question what could be the motivation behind there being significantly more actors in certain countries over others other than being an English-speaking country. Some potential reasons include: how developed the country is economically and if English is taught as a secondary language in schools as it is in many East Asian countries.</p>
+  <h4 class="title">Top 3 Countries with Foreign Actors in Hollywood</h4>
+  <table align="center" class="heatmap">
+    <tr class="heatmap">
+      <th class="heatmap">Country</th>
+      <th class="heatmap">Number of Actors</th> 
+    </tr>
+    <tr class="heatmap">
+      <td class="heatmap">United Kingdom</td>
+      <td class="heatmap">2264</td> 
+    </tr class="heatmap">
+    <tr class="heatmap">
+      <td class="heatmap">Canada</td>
+      <td class="heatmap">826</td> 
+    </tr>
+    <tr class="heatmap">
+      <td class="heatmap">Australia</td>
+      <td class="heatmap">367</td> 
+    </tr>
+  </table>
+  <h4 class="title">World Map of Hollywood Foreign Actors (excluding top 3 countries)</h4>
+  <div id="map"><img src = 'HeatMap.png'/></div>
+  <h3>Per Country Box Office</h3>
+  <p>From the top 150 internationally grossing movies in the past 10 years, we wanted to observe which ones are the most commercially successful in each country that we have data for. Below, we present the top 50 grossing movies in each country, and we also have the ability to answer the question, "Which of these movies has a main cast actor from the country?"</p>
+  <h4 class="title">Top 50 Grossing Movies in the Country</h4>
+  <center><p>Select a country from the dropdown list to begin!</p></center>
+  <div id="stacked-dropdown"></div>
+  <div id="stacked-bar"></div>
+  <p>While there isn't a holistic trend seen across countries, it piques one interest to at least observe which top grossing movies are the ones with actors from their homeland, and it introduces more questions that we would have liked to explore. For example, in South Korea, the 3rd top-grossing movie is The Avengers: Age of Ultron, and there is not a South Korean actor considered to be a part of the main cast (albeit there is a South Korean side character actress). But another big indicator is that the movie was partially filmed in South Korea. Maybe the filming locations have a greater impact on the sort of publicity done in the country rather than the presence of a foreign actor.</p>
+  <h3>Did You Hear Them Talk?</h3>
+  <p>Another element we wanted to observe was the actual number of lines an actor speaks. Would that have any big correlation with the success of the movie in the homeland? Overall, we observe that no, there isn't much correlation. In fact, there are instances where an actor says barely any lines and the movie does significantly better than another movie where the actor was perhaps the main character.</p>
+  <p>Interestingly enough, for certain films, having major international actors star in them made no difference in their international box office performances. For example, Rain and Jet Li are both extremely famous in their native countries of Korea and China(Hong Kong) respectively, but both of the films they were in failed to do well in South Korea or China at all.</p>
+  <h4 class="title">Comparing Actor's Number of Lines to Box Office Success in Their Country</h4>
+  <div id="scatter-dropdown"></div>
+  <div id="scatter-plot"></div>
+  <h3>Foreign Actors over Time</h3>
+  <p>Because foreign countries are becoming larger markets for Hollywood films, we wanted to see if the number of Hollymood movies containing foreign actors had changed over time. However, it does not seem as if there has been much change over the past 11 years. Even when filtering the actors by continent, there were noticeable trends over the years. </p>
+  <p>On average, <big>80%</big> of Hollywood films star at least one foreign actor. This may seem like a lot, but most of those foreign stars come from major English-speaking countries such as the UK and Australia. In fact, I had seen most of those European actors in so many Hollywoods movies that I kind of just assumed they were American.</p>
+  <h4 class="title">Movies with Foreign Actors over Time</h4>
+  <div id="titleAll">
+    <div id="histdropdown"></div>
+    <center><div id="histchart"></div></center>
+  </div>
+  <h3>Top Grossing Domestic Movies</h3>
+  <p>We decided to take a closer look at specific countries to see how an actor from that country starring in a Hollywood film would affect the film's performance in that country. We took the 3 top grossing films from 7 countries from the past 11 years that contained actors from that country and 3 that didn't contain actors from that country.</p>
+  <p>It can be seen that in the 2 English speaking countries in this graph (England and Australia), the highest grossing movies with domestic stars had higher box office results than the highest grossing movies without domestic stars (Star Wars the Force Awakens and Avatar). In other countries, while the highest grossing movies with domestic stars performed well in those countries, they weren't able to beat out the appeal of Hollywood actors. </h4>
+  <p>But interestingly enough, certain movies that did really well on foreign countries because they contained foreign actors, did not do very well at all in the US. For example, the movie Warcraft, which was the highest grossing Hollywood film starring a Chinese actor to date, earned $213,541,452 in China. That's <big>5x</big> the amount of raked in from the US box office. So while foreign movies containing domestic actors may not be able to directly outperform pure Hollywood movies in foreign countries, it may cause much higher revenue than the film would have generated had it not contained that foreign actor.</p>
+  <h4 class="title">International Box Offices with and without Domestic Stars</h4>
+  <center><div class="legendcirclepink"></div><span class="dotlegend">   Top 3 Movies with actors from given country &nbsp; &nbsp; &nbsp;</span>
+  <div class="legendcircleblue"></div><span class="dotlegend">   Top 3 Movies without actors from given country</span></center>
+  <center><div id="dotchart"></div></center>
+  <h3>Most Valuable Stars</h3>
+  <p>We also looked at how movies starring foreign actors performed internationally. As can be seen once again, North American and European actors bring in the most box office revenue. Each actor/actress's top grossing film is listed next to their name. Interestinlgy many of those movies occur quite often in this chart: Avengers, Transformers, X-men. Not all of actors were stars in their top-grossing films however. So maybe it was the star power of their co-stars, and the appeal of he actor himself that caused the movie to perform so well.</p>
+  <div id="topcontinents" class="graphic">
+      <h4 class="title"><center>The Most Valuable Stars by Continent</center><h4 class="title">
+      <div class="continent-controls">
+      </div>
+      <center><table>
+          <thead>
+              <tr></tr>
+          </thead>
+          <tbody></tbody>
+      </table></center>
+      <p></p>
+      <center><div class="expander-container">
+          <a class="barbtn expander"></a>
+      </div>
+    </center>
+  </div>
+  <h3 class="title">What about your Favorite Movies?</h3>
+  <center> <h4 class="title">Actor Breakdown by Movie</h4>
+  <div id="moviegrid"></div>
+  <p>Hover over each movie poster to see which actors and countries are in that movie!</p>
+</center>
+  <h3>Looking Ahead</h3>
+  <p>Moving on, we would like to further explore: </p>
+  <li>How have relationships between certain countries and the US possibly influenced Hollywood and the box office.</li>
+  <li>Looking more into the movie scripts to analyze them for content and themes.</li>
+  <li>Uncover futher gender and racial representation from the foreign actors subset</li> 
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <script>
+    // tooltip
+    // console.log(d3.version)
+    var tooltip = d3.selectAll('body')
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity",0);
+    // // Creating heat map
+    // var format = function(d) {
+    //   if (Number(d).toFixed(0) % 25 == 0) return Number(d).toFixed(0);
+    //   return '';
+    // }
+    // var gradient = ["#A6DEFF", "#A0D6FE", "#9ACEFE", "#95C7FD", "#8FBFFD", "#89B8FD", "#84B0FC", "#7EA9FC", "#79A1FC", "#739AFB", "#6D92FB", "#688AFB", "#6283FA", "#5C7BFA", "#5774FA", "#516CF9", "#4C65F9", "#465DF9", "#4056F8", "#3B4EF8", "#3546F8", "#2F3FF7", "#2A37F7", "#2430F7", "#1F28F6", "#1921F6", "#1319F6", "#0E12F5", "#080AF5", "#0303F5", "#0303F5", "#0202F4", "#0202F3", "#0202F2", "#0202F2", "#0202F1", "#0202F0", "#0202F0", "#0202EF", "#0202EE", "#0202EE", "#0202ED", "#0202EC", "#0202EC", "#0202EB", "#0202EA", "#0202EA", "#0202E9", "#0202E8", "#0202E8", "#0101E7", "#0101E6", "#0101E6", "#0101E5", "#0101E4", "#0101E4", "#0101E3", "#0101E2", "#0101E2", "#0101E1", "#0101E0", "#0101DF", "#0101DF", "#0101DE", "#0101DD", "#0101DC", "#0101DB", "#0101DB", "#0101DA", "#0000D9", "#0000D8", "#0000D7", "#0000D6", "#0000D5", "#0000D4", "#0000D3", "#0000D2", "#0000D1", "#0000D0", "#0000CF", "#0000CE", "#0000CD"];
+    // var map = d3.geomap.choropleth()
+    //     .geofile('d3-geomap/topojson/world/countries.json')
+    //     .colors(gradient)
+    //     .column('Count')
+    //     .format(format)
+    //     .legend(true)
+    //     .unitId('Country Code');
+
+    // d3.csv('data/numActors.csv', function(error, data) {
+    //     d3.select('#map')
+    //       .datum(data)
+    //       .call(map.draw, map);
+    // });
+
+
+    var boxOfficeCountries = ["United Kingdom", "France", "Australia", "Finland", "Italy", "Poland", "South Africa", "Thailand", "Brazil", "Netherlands", "Portugal", "South Korea", "New Zealand", "Iceland", "Slovakia", "Colombia", "Lithuania", "Norway", "Russia - CIS", "Turkey", "Singapore", "United Arab Emirates", "Greece", "Hungary", "Lebanon", "Taiwan", "Belgium", "Hong Kong", "Jordan", "Mexico", "Oman", "Spain", "Argentina", "Austria", "Bolivia", "Chile", "Czech Republic", "Germany", "Indonesia", "Malaysia", "Paraguay", "Philippines", "Switzerland", "Uruguay", "Denmark", "India", "Israel", "Panama", "Peru", "Romania", "Slovenia", "Sweden", "Ukraine", "Venezuela", "Bulgaria", "Croatia", "Egypt", "Latvia", "Serbia & Montenegro", "Cyprus", "Ecuador", "Estonia", "Trinidad & Tobago", "Vietnam", "Nigeria", "Bahrain", "Kuwait", "Qatar", "Aruba", "Costa Rica", "Dominican Republic", "Nicaragua", "China", "Japan", "Mongolia", "Pakistan", "Kenya", "Ghana", "Jamaica", "Honduras", "Switzerland (German-speaking)", "Cambodia", "Switzerland (French-speaking)", "Ethiopia", "Curacao", "Iraq", "West Indies", "East Africa", "Central America", "Puerto Rico", "Russia", "Central America and the Greater Antilles", "Lesser Antilles", "Canada", "South, East and West Africa", "Bosnia and Herzegovina", "Ireland", "Switzerland (Italian-speaking)", "Syria", "Southern Africa", "East & West Africa", "Czech Republic/Slovakia", "Greece and Cyprus", "FOREIGN TOTAL", "Middle East Other", "Middle East + UAE", "Macedonia", "Laos", "Malta", "Bangladesh", "El Salvador", "Tunisia", "Middle East", "Sri Lanka", "Albania", "Guatemala", "Palestine", "Switzerland (French and Italian Speaking)"];
+    boxOfficeCountries.sort();
+    var stacked_dropDown = d3.select("#stacked-dropdown")
+      .append("select")
+      .attr("name", "country-list");
+
+    var options = stacked_dropDown.selectAll("#stacked-option")
+      .data(["--"].concat(boxOfficeCountries))
+      .enter()
+      .append("option");
+
+    options.text(function(d){return d;})
+      .attr("value", function(d){return d;});
+
+    function createStackedChart(country) {
+      d3.csv('data/boxoffice.csv', function(error, data) {
+        var movie_names = new Set();
+        data.filter(function(d,i) {
+          if (d.Country == country) {
+            movie_names.add(d.Movie);
+          }
+        });
+        data = data.filter(function(d, i) {
+          if (movie_names.has(d.Movie) && d.BoxOffice != "n/a") {
+            return true;
+          }
+        });
+        var data_movies = new Map();
+        data.forEach(function(entry) {
+          if (!data_movies.has(entry.Movie)) {
+            var movie_entry = {};
+            movie_entry["Movie"] = entry.Movie;
+            movie_entry[country] = 0;
+            movie_entry["Foreign"] = 0;
+            movie_entry["HasActor"] = false;
+            movie_entry["Movie_proper"] = "";
+            movie_entry["Actors"] = new Set();
+            if (entry.Country == country) {
+              movie_entry[entry.Country] = Number(entry.BoxOffice.replace(/[^0-9\.-]+/g,""));
+            } else {
+              movie_entry["Foreign"] += Number(entry.BoxOffice.replace(/[^0-9\.-]+/g,""));
+            }
+            data_movies.set(entry.Movie, movie_entry);
+          } else {
+            var existing_movie_entry = data_movies.get(entry.Movie);
+            if (entry.Country == country) {
+              existing_movie_entry[entry.Country] = Number(entry.BoxOffice.replace(/[^0-9\.-]+/g,""));
+            } else {
+              existing_movie_entry["Foreign"] += Number(entry.BoxOffice.replace(/[^0-9\.-]+/g,""));
+            }
+            data_movies.set(entry.Movie, existing_movie_entry);
+          }
+        });
+
+        data = Array.from(data_movies.values());
+        data.filter(function(d,i) {
+          if(d[country] > 0) {
+            return true;
+          }
+        });
+        data.sort(function(a, b) { return b[country] - a[country]; });
+        data = data.slice(0,50);
+
+        d3.csv('data/actornationalities.csv', function(err, nationality_data) {
+          nationality_data.forEach(function(person, i) {
+            var entry_movie = person['Movie'].toLowerCase();
+            entry_movie = entry_movie.replace(/[^0-9a-z]/gi, '');
+            if (data_movies.has(entry_movie)) {
+              var arr_element = data.find(function(movie_item) {
+                return movie_item['Movie'] == entry_movie;
+              });
+              if (arr_element) {
+                arr_element["Movie_proper"] = person['Movie'];
+                if (person['Country'] == country || (person['Country'] == 'UK' && country == 'United Kingdom')) {
+                  arr_element['HasActor'] = true;
+                  arr_element["Actors"].add(person["Actor"]);
+                }
+              }
+              
+            }
+          });
+
+          var proper_movie_names = [];
+          for (var i = 0; i < data.length; i++) {
+            var data_entry =  data[i];
+            proper_movie_names.push(data_entry["Movie_proper"]);
+          }
+          
+          var checkbox = d3.select("#stacked-bar")
+            .append("div")
+            .attr("id", "stacked-checkbox");
+          checkbox.append("input")
+                  .attr("type", "checkbox")
+                  .attr("class", "view-foreign-actors-only")
+                  .on("change", featureBars)
+          d3.select("#stacked-checkbox").append("text")
+            .text(function(d) { return "View Movies with Main Cast Actors from " + country; });
+                            
+          var width = 1000,
+              barHeight = 14;
+
+          var x = d3.scale.linear()
+                    .range([0, 750]);
+
+          var chart = d3.select("#stacked-bar")
+                        .append("svg")
+                        .attr("class", "chart")
+                        .attr("width", width);
+
+          x.domain([0, d3.max(data, function(d) { return d[country]; })]);
+          chart.attr("height", barHeight * data.length);
+
+          var bar = chart.selectAll("g")
+                          .data(data)
+                        .enter().append("g")
+                          .attr("transform", function(d, i) { return "translate(" + 250 + "," + i * barHeight + ")"; });
+
+
+          for (var j = 0; j < proper_movie_names.length; j++) {
+            chart.append("text")
+              .attr("id", "stacked-bars-movie")
+              .attr("y", (j * barHeight) + (barHeight / 2))
+              .attr("dy", ".35em")
+              .text(function() { return proper_movie_names[j]; });
+          }
+
+          bar.append("rect")
+              .attr("class", "stacked-bars")
+              .attr("width", function(d){ return x(d[country]); })
+              .attr("height", barHeight - 1)
+              .on("mouseover", function(d){
+                stackedTipMouseOver(d);
+              })
+              .on("mouseout", function(d){
+                stackedTipMouseOut(d);
+              });
+
+          bar.append("text")
+              .attr("class", "stacked-bars-boxo")
+              .attr("x", 10)
+              .attr("y", barHeight / 2)
+              .attr("dy", ".35em")
+              .text(function(d) { return d3.format("$,")(+d[country]); });
+
+          d3.select("#stacked-bar").transition()
+                .style("opacity", 1);
+
+          function type(d) {
+            d.value = +d.value; // coerce to number
+            return d;
+          }
+
+          var stackedTipMouseOver = function(d){
+          // var format = d3.format("$,");
+          // var boxoffice = format(+d.Boxo);
+          // when hovering over, state actor name, character, movie, lines, and box office
+          var actor_list = "";
+          for (let actor_name of d["Actors"]) {
+            actor_list += actor_name + ", ";
+          }
+          actor_list = actor_list.slice(0, -2);
+          if (actor_list != "") {
+            var html = "<strong>Actors: </strong><span style = 'color:#004C99'>" + actor_list + "</span> ";
+            tooltip.html(html)
+                  .style("left", (d3.event.pageX + 15) + "px")
+                  .style("top", (d3.event.pageY - 28) + "px")
+                  .transition()
+                    .duration(100) //ms
+                    .style("opacity", 0.85);
+          }
+          
+          };
+
+          var stackedTipMouseOut = function(d){
+            tooltip.transition()
+            .duration(300) //ms
+            .style("opacity", 0);
+          };
+
+          function featureBars() {
+            if (d3.select(".view-foreign-actors-only").property("checked")) {
+              var included_movie_names = new Set();
+              d3.selectAll(".stacked-bars")
+                .filter(function(i) {
+                  if (i["HasActor"]) {
+                    included_movie_names.add(i["Movie_proper"]);
+                  }
+                  return i["HasActor"];
+                })
+                .style("opacity", 1);
+              d3.selectAll(".stacked-bars-boxo")
+                .filter(function(i) {
+                  return i["HasActor"];
+                })
+                .style("opacity", 1);
+              d3.selectAll("#stacked-bars-movie")
+                .filter(function(i) {
+                  return included_movie_names.has(d3.select(this).text());
+                })
+                .style("opacity", 1);
+              d3.selectAll(".stacked-bars")
+                .filter(function(i) {
+                  return i["HasActor"] == false;
+                })
+                .style("opacity", 0.5);
+              d3.selectAll(".stacked-bars-boxo")
+                .filter(function(i) {
+                  return i["HasActor"] == false;
+                })
+                .style("opacity", 0.5);
+              d3.selectAll("#stacked-bars-movie")
+                .filter(function(i) {
+                  return included_movie_names.has(d3.select(this).text()) == false;
+                })
+                .style("opacity", 0.5);
+            } else {
+              d3.selectAll(".stacked-bars")
+                .style("opacity", 1);
+              d3.selectAll("#stacked-bars-movie")
+                .style("opacity", 1);
+              d3.selectAll(".stacked-bars-boxo")
+                .style("opacity", 1);
+            }
+          }
+        });
+      });
+    }
+    
+    stacked_dropDown.on("change", function() {
+      var selected = this.value;
+      d3.select("#stacked-bar").transition()
+                          .style("opacity", 0);
+      d3.select(".chart").remove();
+      d3.select("#stacked-checkbox").remove();
+      createStackedChart(selected);
+    });
+
+    // Building scatterplot
+    d3.csv('data/scripts.csv', function(error, scripts_data) {
+      d3.csv('data/boxoffice.csv', function(error, boxoffice_data) {
+        // lines data and box office data (for the movie)
+        var scatter_data = [];
+        scripts_data = scripts_data.filter(function(d, i) {
+          if (d["NumLines"] != '') {
+            return true;
+          }
+        });
+        boxoffice_data = boxoffice_data.filter(function(d, i) {
+          if (d["BoxOffice"] != "n/a") {
+            return true;
+          }
+        });
+        scripts_data.forEach(function(script) {
+          var script_entry = {};
+          script_entry["Actor"] = script.Actor;
+          script_entry["Movie"] = script.Movies;
+          script_entry["Character"] = script.Role;
+          script_entry["Lines"] = script.NumLines;
+          script_entry["Country"] = script.Country;
+          var movie_string = script.Movies.toLowerCase().replace(/[^0-9a-z]/gi, '');
+          var box_office_element = boxoffice_data.find(function(movie_item) {
+            return movie_item['Movie'] == movie_string;
+          });
+          if (box_office_element) {
+            script_entry["BoxOffice"] = box_office_element.BoxOffice;
+          }
+          scatter_data.push(script_entry);
+        });
+
+        scatter_data = scatter_data.filter(function(d, i) {
+          if(d["Lines"] && d["BoxOffice"]) {
+            return true;
+          }
+        });
+        countries_list = new Set();
+        scatter_data.forEach(function(data_entry) {
+          countries_list.add(data_entry["Country"]);
+        });
+        countries_list = Array.from(countries_list).sort();
+        var scatter_dropDown = d3.select("#scatter-dropdown")
+          .append("select")
+          .attr("name", "country-list");
+
+        var options = scatter_dropDown.selectAll("#scatter-option")
+          .data(["All"].concat(countries_list))
+          .enter()
+          .append("option");
+
+        options.text(function(d){return d;})
+          .attr("value", function(d){return d;});
+
+        scatter_dropDown.on("change", function() {
+          var selected = this.value;
+          d3.selectAll(".scatter-dots").filter(function(d, i) {
+            if (selected == "All") {
+              return true;
+            }
+            if (d["Country"] == selected) {
+              return true;
+            }
+          })
+          .style("pointer-events", "all")
+          .transition().style("opacity", 1);
+          d3.selectAll(".scatter-dots").filter(function(d, i) {
+            if (selected  == "All") {
+              return false;
+            }
+            if (d["Country"] != selected) {
+              return true;
+            }
+          })
+          .style("pointer-events", "none")
+          .transition().style("opacity", 0);
+        });
+
+        var scatter_margin = {top: 20, right: 15, bottom: 60, left: 60},
+            scatter_width = 900 - scatter_margin.left - scatter_margin.right,
+            scatter_height = 500 - scatter_margin.top - scatter_margin.bottom;
+        
+        var scatter_x = d3.scaleLinear()
+                  .domain([0, d3.max(scatter_data, function(d) { return Number(d["Lines"]); })])
+                  .range([ 0, scatter_width ]);
+        
+        var scatter_y = d3.scaleLinear()
+                .domain([0, d3.max(scatter_data, function(d) { 
+                  return Number(d["BoxOffice"].replace(/[^0-9\.-]+/g,"")); })])
+                .range([ scatter_height, 0 ]);
+     
+        var scatter_chart = d3.select('#scatter-plot')
+                      .append('svg:svg')
+                      .attr('width', scatter_width + scatter_margin.right + scatter_margin.left)
+                      .attr('height', scatter_height + scatter_margin.top + scatter_margin.bottom)
+                      .attr('class', 'scatter-chart');
+
+        var scatter_main = scatter_chart.append('g')
+                        .attr('transform', 'translate(' + scatter_margin.left + ',' + scatter_margin.top + ')')
+                        .attr('width', scatter_width)
+                        .attr('height', scatter_height)
+                        .attr('class', 'scatter-main');
+            
+        // draw the x axis
+        var scatter_xAxis = d3.axisBottom()
+                          .scale(scatter_x);
+
+        scatter_main.append('g')
+            .attr('transform', 'translate(0,' + scatter_height + ')')
+            .attr('class', 'scatter-main scatter-axis')
+            .call(scatter_xAxis);
+
+        // draw the y axis
+        var scatter_yAxis = d3.axisLeft()
+                          .scale(scatter_y)
+                          .tickFormat(d3.format(".2s"));
+
+        scatter_main.append('g')
+            .attr('transform', 'translate(0,0)')
+            .attr('class', 'scatter-main scatter-axis')
+            .call(scatter_yAxis);
+
+        var scatter_g = scatter_main.append("svg:g"); 
+        
+        scatter_g.selectAll(".scatter-dots")
+                  .data(scatter_data)
+                  .enter().append("svg:circle")
+                      .attr("cx", function (d,i) { return scatter_x(Number(d["Lines"])); } )
+                      .attr("cy", function (d) { return scatter_y(Number(d["BoxOffice"].replace(/[^0-9\.-]+/g,""))); } )
+                      .attr("r", 5)
+                      .attr("class", "scatter-dots")
+                      .on("mouseover", function(d){
+                        scatterTipMouseOver(d);
+                      })
+                      .on("mouseout", function(d){
+                        scatterTipMouseOut(d);
+                      });
+        // add labels for the axes
+        scatter_g.append("text")             
+                  .attr("transform",
+                        "translate(" + (scatter_width/2) + " ," + 
+                                       (scatter_height + scatter_margin.top + 20) + ")")
+                  .style("text-anchor", "middle")
+                  .text("Number of Lines Actor Has");
+        scatter_g.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - scatter_margin.left)
+            .attr("x",0 - (scatter_height / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Box Office in Actor's Country");
+
+        var scatterTipMouseOver = function(d){
+          var format = d3.format("$,");
+          var boxoffice = format(+d.Boxo);
+          // when hovering over, state actor name, character, movie, lines, and box office
+          var html = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d["Movie"] + "</span> " +"<br>"+ 
+          "<strong>Actor: </strong><span style = 'color:#004C99'>" + d["Actor"] + "</span> " + "<br>" + "<strong>Nationality: </strong><span style = 'color:#004C99'>" + d["Country"] + "</span> " + "<br>" + "<strong>Character: </strong><span style = 'color:#004C99'>" + d["Character"] + "</span> " +"<br>" + "<strong>Number of Lines: </strong><span style = 'color:#004C99'>" + d["Lines"] + "</span> " +"<br>" + "<strong>Box Office in Country: </strong><span style = 'color:#004C99'>" + d["BoxOffice"] + "</span>";
+          tooltip.html(html)
+                  .style("left", (d3.event.pageX + 15) + "px")
+                  .style("top", (d3.event.pageY - 28) + "px")
+                  .transition()
+                    .duration(100) //ms
+                    .style("opacity", 0.85);
+          };
+
+          var scatterTipMouseOut = function(d){
+            tooltip.transition()
+            .duration(300) //ms
+            .style("opacity", 0);
+          };
+      });
+    });
+
+    // Building histogram
+    var histmargin = {top: 10, right: 30, bottom: 30, left: 30},
+        histwidth = 600 - histmargin.left - histmargin.right,
+        histheight = 580; 
+
+      var histx = d3.scaleLinear()
+        .rangeRound([0, histwidth])
+        .domain([2006, 2018]);
+
+      var histxAxis = d3.axisBottom()
+        .scale(histx)
+        .tickFormat(d3.format("d"));
+
+    var histy = d3.scaleLinear()
+        .range([histheight, 0]);
+
+      var histtooltip = d3.selectAll('body')
+          .append("div")
+          .attr("class", "tooltip")
+          .style("opactiy",0);
+
+      var histsvg = d3.select("#histchart")
+        .append("svg")
+        .attr("width", histwidth + histmargin.left + histmargin.right)
+        .attr("height", histheight + histmargin.top + histmargin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + histmargin.left + "," + histmargin.top + ")");
+
+      var histcontinents = ['North America', 'South America', 'Asia', 'Africa', 'Europe', 'Caribbean', 'Middle East', 'Australia']
+
+      var histdropDown = d3.select("#histdropdown")
+          .append("select")
+          .attr('name', "continent-list");
+
+        var histoptions = histdropDown.selectAll('option')
+          .data(['All'].concat(histcontinents))
+          .enter()
+          .append('option');
+
+        histoptions.text(function(d){return d;})
+          .attr("value", function(d){return d;});
+
+    var histcolor = "steelblue";
+
+    function update(){
+      var histt = d3.transition()
+            .duration(1000);
+
+      var histfile = 'data/hasforeign.csv'
+
+      // Get the data
+      d3.csv(histfile, function(alldata){
+        var asiadata = alldata.filter(function(d,i){
+          if(d.Asia == 'yes'){return d;}
+        })
+        var cardata = alldata.filter(function(d,i){
+          if(d.Caribbean == 'yes'){return d;}
+        })
+        var namdata = alldata.filter(function(d,i){
+          if(d.NorthAmerica == 'yes'){return d;}
+        })
+        var samdata = alldata.filter(function(d,i){
+          if(d.SouthAmerica == 'yes'){return d;}
+        })
+        var africadata = alldata.filter(function(d,i){
+          if(d.Africa == 'yes'){return d;}
+        })
+        var europedata = alldata.filter(function(d,i){
+          if(d.Europe == 'yes'){return d;}
+        })
+        var medata = alldata.filter(function(d,i){
+          if(d.MiddleEast == 'yes'){return d;}
+        })
+        var ausdata = alldata.filter(function(d,i){
+          if(d.Australia == 'yes'){return d;}
+        })
+        var histtipMouseOver = function(d){
+            var histformat = d3.format("$,");
+            var histboxoffice = histformat(+d.Boxo);
+            var histhtml = "<strong>Year: </strong><span style = 'color:#004C99'>" + d.value + "</span> " +"<br>"+ 
+            "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.name + "</span> " + "<br>" + "<strong>Box Office: </strong><span style = 'color:#004C99'>" + histboxoffice + 
+            "</span>";
+            histtooltip.html(histhtml)
+                .style("left", (d3.event.pageX + 15) + "px")
+                .style("top", (d3.event.pageY - 28) + "px")
+                .transition()
+                    .duration(100) //ms
+                    .style("opacity", 0.9);
+          };
+         var histtipMouseOut = function(d){
+              histtooltip.transition()
+                  .duration(300) //ms
+                  .style("opacity", 0);
+              }
+
+        histy.domain([0, 90]);
+
+        var histnbins = 2000//data.length;
+
+          drawHistogram(alldata);
+          histdropDown.on('change', function(){
+          var histselected = this.value;
+          d3.selectAll("rect").remove();
+          if(histselected == 'Asia'){
+            drawHistogram(asiadata);
+          }
+          if(histselected == 'Caribbean'){
+            drawHistogram(cardata);
+          }
+          if(histselected == 'North America'){
+            drawHistogram(namdata);
+          }
+          if(histselected == 'South America'){
+            drawHistogram(samdata);
+          }
+          if(histselected == 'Africa'){
+            drawHistogram(africadata);
+          }
+          if(histselected == 'Europe'){
+            drawHistogram(europedata);
+          }
+          if(histselected == 'Middle East'){
+            drawHistogram(medata);
+          }
+          if(histselected == 'Australia'){
+            drawHistogram(ausdata);
+          }
+          if(histselected == 'All'){
+            drawHistogram(alldata);
+          }
+        })
+
+        function drawHistogram(newdata){
+          var histogram = d3.histogram()
+            .domain(histx.domain())
+            .thresholds(histx.ticks(histnbins))
+            .value(function(d) {return d.year;})
+
+          var histbins = histogram(newdata);
+
+          var histradius = 3//y(data.length-1)/2
+          var histwidth = 42
+          var histheight = 4.5
+
+          var histbin_container = histsvg.selectAll("g")
+            .data(histbins);
+
+          histbin_container.enter().append("g")
+
+          var histdots = histbin_container.selectAll("rect")
+              .data(function(d) {
+                return d.map(function(data, i){return {"idx": i, "name": data.Movie, "value":data.year, "xpos": histx(d.x0)+(histx(d.x1)-histx(d.x0))/2, "Boxo":data.bo, "Asia": data.Asia, "NorthAmerica": data.NorthAmerica,"SouthAmerica": data.SouthAmerica,"Australia": data.Australia,"Europe": data.Europe,"Caribbean": data.Caribbean,"MiddleEast": data.MiddleEast, "Africa": data.Africa};})
+          });
+          histdots.enter().append('rect')
+            .attr("class", 'histenter')
+            .attr('width', histwidth)
+            .attr('height', histheight)
+            .attr('x', function(d){return d.xpos - histwidth/2;})
+            .attr('y', function(d){return histy(d.idx)-histradius;})
+            .style('opacity', 1)
+            .on("mouseover", function(d){
+                d3.select(this)
+                  .attr('stroke', 'purple')
+                  .attr('stroke-width', 1.3)
+                    .style("transform", "scale(1.05,1.5)")
+                    .style("transform-origin", "50% 50%")
+                      histtipMouseOver(d);
+                  })
+                  .on("mouseout", function(d){
+                    d3.select(this)
+                      .attr('stroke', 'none')
+                    .style("transform", "scale(1,1)")
+                    .style("transform-origin", "50% 50%")
+                      histtipMouseOut(d);
+                  })
+            .merge(histdots)
+        }
+
+
+      
+      });
+    };
+    histsvg.append("g")
+      .attr("class", "histaxis axis--x")
+      .attr("transform", "translate(0," + histheight + ")")
+      .call(histxAxis);
+
+    update();
+    update();  
+
+      // Add Dot Graph
+      var dotfullwidth = 1000,
+          dotfullheight = 500;
+      var dotmargin = {top: 20, right: 250, bottom: 20, left: 70};
+      var dotwidth = 1000 - dotmargin.left - dotmargin.right,
+          dotheight = 500 - dotmargin.top - dotmargin.bottom;
+
+      var dotsvg = d3.select("#dotchart")
+        .append("svg")
+        .attr("width", dotfullwidth)
+        .attr("height", dotfullheight);
+      dotsvg.append("text")             
+        .attr("transform", "translate(" + (dotwidth/1.65) + " ," + 
+                                       (dotheight + dotmargin.top + 20) + ")")
+                  .style("text-anchor", "middle")
+                  .text("Box Office Revenue in Dollars");
+
+      var dottooltip = d3.selectAll('body')
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opactiy",0);
+
+      d3.csv("data/countrydotchart.csv", function(error, data) {
+        if (error) {
+          console.log("error reading file");
+        }
+        data.sort(function(a, b) {
+          return d3.descending(+a.dbo1, +b.dbo1);
+        });
+
+        var dotwidthScale = d3.scaleLog()
+            .range([0,dotwidth])
+            .base(10)
+            .domain([1500000,400000000]);
+
+        var dotxAxis = d3.axisBottom()
+              .scale(dotwidthScale)
+              .ticks(10, ",.1s");
+
+        var dotheightScale = d3.scaleBand()
+          .domain(data.map(function(d) {return d.Country;}))
+          .rangeRound([dotmargin.top, dotheight])
+          .padding(0.2);
+
+         var dotyAxis = d3.axisLeft()
+              .scale(dotheightScale);
+
+        var dotlinesBetween = dotsvg.selectAll("lines.between")
+          .data(data)
+          .enter()
+          .append("line");
+
+        dotlinesBetween.attr("class", "between")
+          .attr("x1", function(d) {
+            return dotmargin.left + dotwidthScale(+d.dbo1);
+          })
+          .attr("y1", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .attr("x2", function(d) {
+            return dotmargin.left + dotwidthScale(+d.bo3);
+          })
+          .attr("y2", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .attr("stroke-dasharray", "5,5")
+          .attr("stroke-width", 1);
+
+        var dotlinesBetween2 = dotsvg.selectAll("lines.between")
+          .data(data)
+          .enter()
+          .append("line");
+
+        dotlinesBetween2.attr("class", "between")
+          .attr("x1", function(d) {
+            return dotmargin.left + dotwidthScale(+d.bo1);
+          })
+          .attr("y1", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .attr("x2", function(d) {
+            return dotmargin.left + dotwidthScale(+d.bo3);
+          })
+          .attr("y2", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .attr("stroke-dasharray", "5,5")
+          .attr("stroke-width", 1);
+
+      var dotlinesBetween3 = dotsvg.selectAll("lines.between")
+          .data(data)
+          .enter()
+          .append("line");
+
+      dotlinesBetween3.attr("class", "between")
+          .attr("x1", function(d) {
+            return dotmargin.left + dotwidthScale(+d.dbo1);
+          })
+          .attr("y1", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .attr("x2", function(d) {
+            return dotmargin.left + dotwidthScale(+d.dbo3);
+          })
+          .attr("y2", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .attr("stroke-dasharray", "5,5")
+          .attr("stroke-width", 1);
+
+        var dottipMouseOverd1 = function(d){
+          var dotformat = d3.format("$,");
+          var dotboxoffice = dotformat(+d.dbo1);
+          var dothtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.d1 + 
+            "</span> " +"<br>"+ "<strong>Box Office: $</strong><span style = 'color:#004C99'>" + dotboxoffice + 
+            "</span>";
+          dottooltip.html(dothtml)
+              .style("left", (d3.event.pageX + 15) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .transition()
+                .duration(100) //ms
+                .style("opacity", 0.9);
+          };
+
+        var dottipMouseOverd2 = function(d){
+          var dotformat = d3.format("$,");
+          var dotboxoffice = dotformat(+d.dbo2);
+          var dothtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.d2 + 
+            "</span> " +"<br>"+ "<strong>Box Office: $</strong><span style = 'color:#004C99'>" + dotboxoffice + 
+            "</span>";
+            dottooltip.html(dothtml)
+              .style("left", (d3.event.pageX + 15) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .transition()
+                .duration(100) //ms
+                .style("opacity", 0.9);
+          };
+
+        var dottipMouseOverd3 = function(d){
+          var dotformat = d3.format("$,");
+          var dotboxoffice = dotformat(+d.dbo3);
+          var dothtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.d3 + 
+            "</span> " +"<br>"+ "<strong>Box Office: $</strong><span style = 'color:#004C99'>" + dotboxoffice + 
+            "</span>";
+            dottooltip.html(dothtml)
+              .style("left", (d3.event.pageX + 15) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .transition()
+                .duration(100) //ms
+                .style("opacity", 0.9);
+          };
+
+        var dottipMouseOverf1 = function(d){
+          var dotformat = d3.format("$,");
+          var dotboxoffice = dotformat(+d.bo1);
+          var dothtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.n1 + 
+            "</span> " +"<br>"+ "<strong>Box Office: $</strong><span style = 'color:#004C99'>" + dotboxoffice + 
+            "</span>";
+            dottooltip.html(dothtml)
+              .style("left", (d3.event.pageX + 15) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .transition()
+                .duration(100) //ms
+                .style("opacity", 0.9);
+          };
+
+        var dottipMouseOverf2 = function(d){
+          var dotformat = d3.format("$,");
+          var dotboxoffice = dotformat(+d.bo2);
+          var dothtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.n2 + 
+            "</span> " +"<br>"+ "<strong>Box Office: $</strong><span style = 'color:#004C99'>" + dotboxoffice + 
+            "</span>";
+            dottooltip.html(dothtml)
+              .style("left", (d3.event.pageX + 15) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .transition()
+                .duration(100) //ms
+                .style("opacity", 0.9);
+          };
+
+        var dottipMouseOverf3 = function(d){
+          var dotformat = d3.format("$,");
+          var dotboxoffice = dotformat(+d.bo3);
+          var dothtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.n3 + 
+            "</span> " +"<br>"+ "<strong>Box Office: $</strong><span style = 'color:#004C99'>" + dotboxoffice + 
+            "</span>";
+            dottooltip.html(dothtml)
+              .style("left", (d3.event.pageX + 15) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .transition()
+                .duration(100) //ms
+                .style("opacity", 0.9);
+          };
+
+        var dottipMouseOut = function(d){
+            dottooltip.transition()
+            .duration(300) //ms
+            .style("opacity", 0);
+        };
+
+        
+
+        // Make the dots for db01
+        var dotsdbo1 = dotsvg.selectAll("circle.dbo1")
+          .data(data)
+          .enter()
+          .append("circle")
+          .on("mouseover", function(d){
+              d3.select(this).transition().attr('r', 10)
+              dottipMouseOverd1(d);
+          })
+          .on("mouseout", function(d){
+              d3.select(this).transition().attr('r', 5)
+              dottipMouseOut(d);
+          });
+
+        dotsdbo1
+          .attr("class", "dbo1")
+          .attr("cx", function(d) {
+            return dotmargin.left + dotwidthScale(+d.dbo1);
+          })
+          .attr("r", 5)
+          .attr("cy", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .append("title")
+
+        //Make the dots for db02
+        var dotsdbo2 = dotsvg.selectAll("circle.dbo2")
+          .data(data)
+          .enter()
+          .append("circle")
+          .on("mouseover", function(d){
+            d3.select(this).transition().attr('r', 10)
+            dottipMouseOverd2(d);
+          })
+          .on("mouseout", function(d){
+            d3.select(this).transition().attr('r', 5)
+            dottipMouseOut(d);
+          });
+
+        dotsdbo2
+          .attr("class", "dbo2")
+          .attr("cx", function(d) {
+            return dotmargin.left + dotwidthScale(+d.dbo2);
+          })
+          .attr("r", 5)
+          .attr("cy", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .append("title");
+
+
+        // Make the dots for db03
+        var dotsdbo3 = dotsvg.selectAll("circle.dbo3")
+          .data(data)
+          .enter()
+          .append("circle")
+          .on("mouseover", function(d){
+              d3.select(this).transition().attr('r', 10)
+              dottipMouseOverd3(d);
+           })
+          .on("mouseout", function(d){
+            d3.select(this).transition().attr('r', 5)
+            dottipMouseOut(d);
+          });
+
+        dotsdbo3
+          .attr("class", "dbo3")
+          .attr("cx", function(d) {
+            return dotmargin.left + dotwidthScale(+d.dbo3);
+          })
+          .attr("r", 5)
+          .attr("cy", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .append("title");
+
+        // Make the dots for b01
+        var dotsbo1 = dotsvg.selectAll("circle.bo1")
+          .data(data)
+          .enter()
+          .append("circle")
+          .on("mouseover", function(d){
+              d3.select(this).transition().attr('r', 10)
+              dottipMouseOverf1(d);
+          })
+          .on("mouseout", function(d){
+            d3.select(this).transition().attr('r', 5)
+            dottipMouseOut(d);
+          });
+
+        dotsbo1
+          .attr("class", "bo1")
+          .attr("cx", function(d) {
+            return dotmargin.left + dotwidthScale(+d.bo1);
+          })
+          .attr("r", 5)
+          .attr("cy", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .append("title");
+
+        // Make the dots for b02
+        var dotsbo2 = dotsvg.selectAll("circle.bo2")
+          .data(data)
+          .enter()
+          .append("circle")
+          .on("mouseover", function(d){
+            d3.select(this).transition().attr('r', 10)
+            dottipMouseOverf2(d);
+          })
+          .on("mouseout", function(d){
+            d3.select(this).transition().attr('r', 5)
+            dottipMouseOut(d);
+          });
+
+        dotsbo2
+          .attr("class", "bo2")
+          .attr("cx", function(d) {
+            return dotmargin.left + dotwidthScale(+d.bo2);
+          })
+          .attr("r", 5)
+          .attr("cy", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .append("title");
+
+        // Make the dots for b03
+        var dotsbo3 = dotsvg.selectAll("circle.bo3")
+          .data(data)
+          .enter()
+          .append("circle")
+          .on("mouseover", function(d){
+            d3.select(this).transition().attr('r', 10)
+            dottipMouseOverf3(d);
+          })
+          .on("mouseout", function(d){
+            d3.select(this).transition().attr('r', 5)
+            dottipMouseOut(d);
+          });
+
+        dotsbo3
+          .attr("class", "bo3")
+          .attr("cx", function(d) {
+            return dotmargin.left + dotwidthScale(+d.bo3);
+          })
+          .attr("r", 5)
+          .attr("cy", function(d) {
+            return dotheightScale(d.Country) + dotheightScale.bandwidth()/2;
+          })
+          .append("title");
+
+        dotsvg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(" + dotmargin.left + "," + dotheight + ")")
+          .call(dotxAxis);
+
+        dotsvg.append("g")
+          .attr("class", "y axis")
+          .attr("transform", "translate(" + dotmargin.left + ",0)")
+          .call(dotyAxis);
+      });     
+
+  // Great Bar Graph
+        var barfile = 'data/actorinfocont.csv'
+      d3.csv(barfile, function(data) {
+        console.log(data[0]);
+
+        // DEFINE CONSTANTS
+        
+        const default_numactors = 10;
+        const more_actors = 20;
+        const bo_axis_min = 10000000;
+
+        const col_headings = ['', 'Actor and Highest-Grossing Movie', 'Average Box Office'];
+        const cont = ['NAM', 'LATAM', 'Asia', 'Africa', 'Euro', 'M. East', 'Aus', 'Global'];
+
+
+        const continents = [];
+        for(let d=0; d<=7; d++){
+          let continent = {name: cont[d]};
+          continents.push(continent);
+        }
+        const pseudo_cont = continents;
+        pseudo_cont.reverse();
+
+        const firstCont = 'Global';
+
+        // HELPER FUNCTIONS
+        function continent_controls(root){
+          return root.selectAll('a').data(pseudo_cont)
+            .enter()
+            .append('a')
+            .classed('Continent', true)
+            .classed('front-curve', (d,i) => i == 0)
+            .classed('back-curve', (d,i) => i == 7)
+            .text(continent => continent.name);
+        }
+
+        function totalbo_to_readable(totalbo, places=0){
+          // const formatter = d3.format('$.,2f');
+          // return formatter(totalbo);
+          return "$" + d3.format(",.0f")(totalbo); 
+        }
+
+        // CLASS TO CREATE DIAGRAM
+        class TopActorsGraphic{
+          constructor(){
+            this.root = d3.select("#topcontinents");
+            this.W = this.root.node().offsetWidth;
+            this.continent = firstCont;
+
+            this.table = this.root.select('table');
+            this.tbody = this.root.select('tbody');
+            this.setupControls();
+            this.maxbar = this.W * 0.4;
+            console.log(this.maxbar);
+
+            this.numactors = default_numactors;
+            this.barscale = d3.scaleLinear()
+              .domain([bo_axis_min, d3.max(data, s=>+s.TotalBO)])
+              .range([0, 400]);
+
+            this.expanded = false;
+            this.resizer = this.root.select('.expander')
+            this.resizer
+              .on('click', () => this.showMoreLess())
+            this.updateResizer();
+
+            this.setupHeader();
+            this.renderActors();
+          }
+
+          showMoreLess(){
+            let na = [default_numactors, more_actors];
+            this.expanded = !this.expanded;
+            let i = this.expanded ? 1 : 0;
+            this.numactors =  na[i];
+            this.updateResizer();
+            this.renderActors();
+          }
+
+          accordion(rows){
+            let rowtime = 60;
+            rows
+              .style('opacity', '0')
+              .style('transform', 'translateY(-50px)')
+              .transition()
+              .delay((d,i) =>(i-10)*rowtime)
+              .duration(rowtime)
+              .style('opacity', '1')
+              .style('transform', 'translateY(0)');
+          }
+
+          updateResizer(){
+            this.resizer
+              .text(this.expanded ? "Show less..." : "Shower more...")
+          }
+
+          setupControls(){
+            continent_controls(this.root.select('.continent-controls'))
+              .on('click', datum=>{this.setContinents(datum.name)});
+            this.updateControls();
+          }
+
+          updateControls(){
+            this.root.selectAll('.continent')
+              .classed("active", d=>this.continent === d);
+              //.classed('active', d=>(d.name = this.continent));
+          }
+
+          setContinents(c1){
+            if(c1 == this.continent){
+              return;
+            }
+            this.continent = c1;
+            this.updateControls();
+            this.renderActors();
+          }
+
+          renderActors(){
+            let dur = 1000;
+            let actordat = data.filter(s=>
+              (s.Continent == this.continent)).slice(0,this.numactors);
+            console.log(this.continent);
+            console.log(actordat);
+            let barrows = this.tbody.selectAll('tr').data(actordat, ad=>ad.Actor);
+            barrows.exit()
+              .remove();
+            let ranktext = (d,i) => i+1+".";
+            barrows.select('.rank')
+              .text(ranktext);
+            let newrows = barrows.enter()
+              .append('tr')
+              .attr("class", "actorschart");
+            newrows.append('td')
+              .attr("class", "actorschart")
+              .classed('rank', true)
+              .text(ranktext);
+            var barformat = d3.format("$,");
+          //   function format(bo){
+          // // const formatter = d3.format('$.,2f');
+          // // return formatter(totalbo);
+          //     return "$" + d3.format(",.0f")(bo); 
+          //   }
+            let labelfn = s => `<b><span class="title">${s.Actor}</b></span> - ${s.Movie} - ${barformat(+s.BO)}`;
+            newrows.append('td')
+              .classed('actor', true)
+              .attr("class", "actorschart")
+              .html(labelfn);
+
+            let gross = newrows.append('td')
+              .attr("class", "actorschart")
+              .classed('grossbo', true);
+
+            let bar = gross.append('div')
+                .classed('bar', true)
+                .style('width', s=>this.barscale(s.TotalBO)+'px')
+                .style('background-color', '#82CAFF')
+                .append('span')
+                  .text(s => totalbo_to_readable(s.TotalBO));
+          }
+
+          setupHeader(){
+            let barhead = this.table.select('thead tr');
+            barhead.selectAll('tr').data(col_headings)
+              .enter()
+              .append('th')
+              .attr("class", "actorschart")
+              .text(h=>h);
+          }
+
+          static init(){
+            let g = new TopActorsGraphic();
+            return g;
+          }
+
+          //this.init();
+        } // END TopActorsGraphic CLASS
+
+        function graphInit(){
+            TopActorsGraphic.init();
+        }
+        //var myGraph = new TopActorsGraphic();
+        graphInit();
+    });
+
+    // Create movie grid
+    var gridWidth = 400;
+    var gridHeight = 400;
+    var gridfile = 'data/gridurls.csv'
+    d3.csv(gridfile, function(data) {
+        console.log(data.Movies);
+        var gridtooltip = d3.selectAll('body')
+          .append("div")
+          .attr("class", "gridtooltip")
+          .style("opacity",0);
+
+        var gridtipMouseOver = function(d){
+            var gridhtml = "<strong>Movie: </strong><span style = 'color:#004C99'>" + d.Movie + "</span>" + "</br>" + "<strong><span style = 'color:black'>" + d.actor1 + "<strong>&nbsp;(</strong><span style = 'color:black'>" + d.character1 + "</span>)&nbsp;-&nbsp;</span></strong><span style = 'color:#004C99'>" + d.country1 + "</br>" + "<strong><span style = 'color:black'>" + d.actor2 + "<strong>&nbsp;(</strong><span style = 'color:black'>" + d.character2 + "</span>)&nbsp;-&nbsp;</span></strong><span style = 'color:#004C99'>" + d.country2 + "</br>" + "<strong><span style = 'color:black'>" + d.actor3 + "<strong>&nbsp;(</strong><span style = 'color:black'>" + d.character3 + "</span>)&nbsp;-&nbsp;</span></strong><span style = 'color:#004C99'>" + d.country3 + "</br>" + "<strong><span style = 'color:black'>" + d.actor4 + "<strong>&nbsp;(</strong><span style = 'color:black'>" + d.character4 + "</span>)&nbsp;-&nbsp;</span></strong><span style = 'color:#004C99'>" + d.country4 + "</br>" + "<strong><span style = 'color:black'>" + d.actor5 + "<strong>&nbsp;(</strong><span style = 'color:black'>" + d.character5 + "</span>)&nbsp;-&nbsp;</span></strong><span style = 'color:#004C99'>" + d.country5 + "</br>";
+
+          gridtooltip.html(gridhtml)
+            .style("left", (d3.event.pageX + 15) + "px")
+            .style("top", (d3.event.pageY - 28) + "px")
+            .transition()
+              .duration(100)
+              .style("opacity", 0.9);
+        };
+
+        var gridtipMouseOut = function(d){
+          gridtooltip.transition()
+            .duration(300) //ms
+            .style("opacity", 0);
+        }
+
+
+        grid = d3.select('#moviegrid')
+          .append('div')
+          .attr('id', 'grid')
+          .attr('class', 'grid');
+
+        movs = grid.selectAll('div')
+          .data(data)
+          .enter()
+          .append('div')
+          .attr('class', 'movie')
+          .on("mouseover", function(d){
+                gridtipMouseOver(d);
+              })
+          .on("mouseout", function(d){
+                  gridtipMouseOut(d);
+              });
+        
+        movs
+          .style('background-image', function(d){
+            return 'url("'+d.url+'")';
+          });
+
+
+         });//end read in csv
+  </script>
+</body>
+</html>
+
+
+
+
+
+

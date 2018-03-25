@@ -1,0 +1,124 @@
+Continent,Rank,Actor,Movie,Year,TotalBO,BO,Character,Country
+Africa,1,Lupita Nyong'O,Star Wars: The Force Awakens,2015,350409466.5,936662225,Maz Kanata,Kenya
+Africa,6,Abraham Attah,Spider-Man: Homecoming,2017,314057748,314057748,Abe,Ghana
+Africa,7,David Bailie,Pirates of the Caribbean: At World's End,2007,309420425,309420425,Cotton,South Africa
+Africa,8,Elize Du Toit,Skyfall,2012,304360277,304360277,Vanessa (M's Assistant),South Africa
+Africa,11,Fana Mokoena,World War Z,2013,202359711,202359711,Thierry Umutoni,South Africa
+Africa,5,Sayed Badreya,Iron Man,2008,189031161.5,318412101,Abu Bakaar,Egypt
+Africa,9,Alice Krige,Thor: The Dark World,2013,134756565.5,206362140,Eir,South Africa
+Africa,10,Ruth Negga,World War Z,2013,124862500.5,202359711,W.H.O. Doctor,Ethiopia
+Africa,2,Charlize Theron,Hancock,2008,94218793.71,227946274,Mary,South Africa
+Africa,4,Sharlto Copley,Maleficent,2014,90499285.4,241410378,Stefan,South Africa
+Africa,3,Djimon Hounsou,Guardians of the Galaxy,2014,75682931.5,333176600,Korath,Benin
+Asia,3,Wen Jiang,Rogue One,2016,532177324,532177324,Baze Malbus,China
+Asia,7,Tao Okamoto,Batman v Superman: Dawn of Justice,2016,330360194,330360194,Mercy Graves,Japan
+Asia,1,Irrfan Khan,Jurassic World,2015,316214954,652270625,Masrani,India
+Asia,2,Donnie Yen,Rogue One,2016,288537868.5,532177324,Chirrut Imwe,China
+Asia,10,Geng Han,Transformers: Age of Extinction,2014,245439076,245439076,Convertible Passenger,China
+Asia,12,Bingbing Fan,X-Men: Days of Future Past,2014,233921534,233921534,Blink,China
+Asia,13,Nazneen Contractor,Star Trek: Into Darkness,2013,228778661,228778661,Rima Harewood,India
+Asia,15,Anil Kapoor,Mission: Impossible - Ghost Protocol,2011,209397903,209397903,Brij Nath,India
+Asia,16,Ivan Shvedoff,Mission: Impossible - Ghost Protocol,2011,209397903,209397903,Leonid Lisenker,Russia
+Asia,18,Jingchu Zhang,Mission: Impossible - Rogue Nation,2015,195042377,195042377,Lauren,China
+Asia,4,Ken Watanabe,Inception,2010,177101329.3,292576195,Saito,Japan
+Asia,9,Bingbing Li,Transformers: Age of Extinction,2014,143892303.5,245439076,Su Yueming,China
+Asia,6,Hiroyuki Sanada,Minions,2015,134862903.7,336045770,Sumo Villain (voice),Japan
+Asia,5,Tadanobu Asano,Thor: The Dark World,2013,122794466,206362140,Hogun,Japan
+Asia,19,Jay Chou,The Green Hornet,2011,81927791,98780042,Kato,Taiwan
+Asia,11,Byung-Hun Lee,The Magnificent Seven,2016,78801520,93381044,Billy Rocks,South Korea
+Asia,8,Jackie Chan,Kung Fu Panda,2008,77363669.5,215434591,Monkey (voice),Hong Kong
+Asia,21,Priyanka Chopra,Planes,2013,74174449,90288712,Ishani (voice),India
+Asia,20,Jet Li,The Expendables 2,2012,53186555,85017401,Yin Yang,China
+Asia,14,Aasif Mandvi,The Dictator,2012,36328173,59650222,Doctor,India
+Aus,5,Dean O'Gorman,The Hobbit: An Unexpected Journey,2012,272163403.7,303003568,Fili,New Zealand
+Aus,6,Mark Hadlow,The Hobbit: An Unexpected Journey,2012,272163403.7,303003568,"Dori,  Bert Troll",New Zealand
+Aus,2,Liam Hemsworth,The Hunger Games: Catching Fire,2013,229554619.7,424668047,Gale Hawthorne,Australia
+Aus,3,Ben Mendelsohn,Rogue One,2016,229334373.6,532177324,Orson Krennic,Australia
+Aus,4,Geoffrey Rush,Minions,2015,215971821.2,336045770,Narrator (voice),Australia
+Aus,1,Chris Hemsworth,The Avengers,2012,165022361.3,623357910,Thor,Australia
+Aus,10,Jemaine Clement,Despicable Me,2010,135992849.8,251513985,Jerry the Minion (voice),New Zealand
+Aus,12,Marton Csokas,Alice in Wonderland,2010,125405034,334191110,Charles Kingsleigh,New Zealand
+Aus,8,Hugh Jackman,X-Men: Days of Future Past,2014,97450824.43,233921534,"Logan,  Wolverine",Australia
+Aus,11,Cate Blanchett,Indiana Jones and the Kingdom of the Crystal Skull,2008,96820247.57,317101119,Irina Spalko,Australia
+Aus,7,Karl Urban,Star Trek,2009,95789115.88,257730019,Bones,New Zealand
+Aus,9,Jason Clarke,Dawn of the Planet of the Apes,2014,85179261.75,208545589,Malcolm,Australia
+Euro,12,Domhnall Gleeson,Star Wars: The Force Awakens,2015,500437112.7,936662225,General Hux,Ireland
+Euro,13,Paula Malcomson,The Hunger Games: Catching Fire,2013,362884631.5,424668047,Katniss' Mother,UK
+Euro,16,Andy Serkis,Star Wars: The Force Awakens,2015,340939436.5,936662225,Supreme Leader Snoke,UK
+Euro,6,Gal Gadot,Wonder Woman,2017,268718081.3,404000714,Diana,Israel
+Euro,14,Alan Rickman,Harry Potter and the Deathly Hallows: Part 2,2011,240514214.2,381011219,Professor Severus Snape,UK
+Euro,15,Ian Mckellen,Beauty and the Beast,2017,238207840.3,504014165,Cogsworth,UK
+Euro,1,Paul Bettany,The Avengers,2012,227969811.9,623357910,Jarvis (voice),UK
+Euro,19,Daniel Radcliffe,Harry Potter and the Deathly Hallows: Part 2,2011,223634845.8,381011219,Harry Potter,UK
+Euro,7,Emma Watson,Beauty and the Beast,2017,222880352.6,504014165,Belle,France
+Euro,5,Michael Caine,The Dark Knight,2008,213055058.4,534858444,Alfred,UK
+Euro,4,Helena Bonham Carter,Harry Potter and the Deathly Hallows: Part 2,2011,201473989.1,381011219,Bellatrix Lestrange,UK
+Euro,17,Christian Bale,The Dark Knight,2008,194657210.1,534858444,Bruce Wayne,UK
+Euro,8,Luke Evans,Beauty and the Beast,2017,194627890,504014165,Gaston,UK
+Euro,18,Tom Hiddleston,The Avengers,2012,192365996,623357910,Loki,UK
+Euro,10,Robert Pattinson,The Twilight Saga: Eclipse,2010,191298398.3,300531751,Edward Cullen,UK
+Euro,11,Steve Coogan,The Secret Life of Pets,2016,188649344,368384330,Ozone (voice),UK
+Euro,3,Ralph Fiennes,Harry Potter and the Deathly Hallows: Part 2,2011,173113838.1,381011219,Lord Voldemort,UK
+Euro,2,Idris Elba,Finding Dory,2016,129165894.7,486295561,Fluke (voice),UK
+Euro,9,Gary Oldman,The Dark Knight,2008,128449590.1,534858444,Gordon,UK
+Euro,20,Ian Mcshane,Shrek the Third,2007,123186628.3,320706665,Captain Hook (voice),UK
+Global,10,Gwyneth Paltrow,The Avengers,2012,294362692.7,623357910,Pepper Potts,USA
+Global,1,Robert Downey Jr.,The Avengers,2012,277969479.1,623357910,"Tony Stark, Iron Man",USA
+Global,11,Jeremy Renner,The Avengers,2012,255858393.1,623357910,"Clint Barton,  Hawkeye",USA
+Global,15,Alan Tudyk,Rogue One,2016,244542986.1,532177324,K-2SO,USA
+Global,7,Tyrese Gibson,Transformers: Revenge of the Fallen,2009,241927515.7,402111870,USAF Chief Master Sergeant Epps,USA
+Global,8,Zoe Saldana,Avatar,2009,239793790.8,760507625,Neytiri,USA
+Global,4,Paul Bettany,The Avengers,2012,227969811.9,623357910,Jarvis (voice),UK
+Global,20,Michelle Rodriguez,Avatar,2009,224361688.6,760507625,Trudy Chacon,USA
+Global,16,Chris Evans,The Avengers,2012,212329721.4,623357910,"Steve Rogers,  Captain America",USA
+Global,6,Elizabeth Banks,The Hunger Games: Catching Fire,2013,207977248.5,424668047,Effie Trinket,USA
+Global,18,Vin Diesel,Guardians of the Galaxy Vol. 2,2017,207107822.1,389213281,Baby Groot(voice),USA
+Global,19,Helena Bonham Carter,Harry Potter and the Deathly Hallows: Part 2,2011,201473989.1,381011219,Bellatrix Lestrange,UK
+Global,14,Bradley Cooper,Guardians of the Galaxy Vol. 2,2017,179069848.2,389213281,Rocket (voice),USA
+Global,5,Samuel L. Jackson,The Avengers,2012,177315959.9,623357910,Nick Fury,USA
+Global,2,Scarlett Johansson,The Avengers,2012,176815752.4,623357910,"Natasha Romanoff, Black Widow",USA
+Global,3,Stanley Tucci,Beauty and the Beast,2017,175106970.8,504014165,Maestro Cadenza,USA
+Global,17,Ralph Fiennes,Harry Potter and the Deathly Hallows: Part 2,2011,173113838.1,381011219,Lord Voldemort,UK
+Global,13,Chris Hemsworth,The Avengers,2012,165022361.3,623357910,Thor,Australia
+Global,9,Idris Elba,Finding Dory,2016,129165894.7,486295561,Fluke (voice),UK
+Global,12,Morgan Freeman,The Dark Knight,2008,125041885.9,534858444,Lucius Fox,USA
+LATAM,3,Shakira,Zootopia,2016,341268248,341268248,Gazelle (voice),Colombia
+LATAM,4,Andrew Divoff,Indiana Jones&the Kingdom of the Crystal Skull,2008,317101119,317101119,Russian Soldier,Venezuela
+LATAM,2,Alice Braga,I Am Legend,2007,98363105.4,256386216,Anna,Brazil
+LATAM,5,Manolo Cardona,Beverly Hills Chihuahua,2008,94514402,94514402,Sam Cortez,Colombia
+LATAM,6,Wagner Moura,Elysium,2013,93050117,93050117,Spider,Brazil
+LATAM,1,Edgar Ramirez,The Bourne Ultimatum,2007,82087618.43,227471070,Paz,Venezuela
+LATAM,9,Roberta Valderrama,The Purge: Anarchy,2014,71962800,71962800,Lorraine,Peru
+LATAM,10,Lino Facioli,Get Him to the Greek,2010,60974475,60974475,Naples,Brazil
+LATAM,7,Gustavo Goulart,Definition,2010,41530417,63407915,George,Brazil
+LATAM,8,Paula Garces,Harold&Kumar Escape from Guantanamo Bay,2008,36560562.5,38087366,Maria,Colombia
+M. East,2,Shaun Toub,Iron Man,2008,318412101,318412101,Yinsen,Iran
+M. East,1,Nasim Pedrad,Despicable Me 2,2013,291045882.5,368061265,Jillian (voice),Iran
+M. East,3,Golshifteh Farahani,Pirates of the Caribbean: Dead Men Tell No Tales,2017,92080602.33,171832628,Shansa,Iran
+M. East,4,Marco Khan,"10,000 BC",2008,77769966.5,94784201,One-Eye,Iran
+M. East,5,Ghassan Massoud,Exodus: Gods and Kings,2014,65014513,65014513,Ramses Grand Vizier,Syria
+M. East,6,Lee Majdoub,Underworld Awakening,2012,62321039,62321039,Desk Guard 1,Lebanon
+M. East,7,Momo Dione,Notorious,2009,36842118,36842118,Record Executive at Party ,Saudi Arabia
+M. East,8,Said Faraj,Green Zone,2010,35053660,35053660,Seyyed Hamza,Lebanon
+M. East,9,Navid Negahban,Brothers,2009,28501651,28501651,Murad,Iran
+M. East,10,Peter Macdissi,The Losers,2010,23580735,23580735,Vikram,Lebanon
+NAM,8,Gwyneth Paltrow,The Avengers,2012,294362692.7,623357910,Pepper Potts,USA
+NAM,1,Robert Downey Jr.,The Avengers,2012,277969479.1,623357910,"Tony Stark,  Iron Man",USA
+NAM,9,Jeremy Renner,The Avengers,2012,255858393.1,623357910,"Clint Barton,  Hawkeye",USA
+NAM,19,Jennifer Lawrence,The Hunger Games: Catching Fire,2013,253360458.3,424668047,Katniss Everdeen,USA
+NAM,12,Alan Tudyk,Rogue One,2016,244542986.1,532177324,K-2SO,USA
+NAM,6,Tyrese Gibson,Transformers: Revenge of the Fallen,2009,241927515.7,402111870,USAF Chief Master Sergeant Epps,USA
+NAM,7,Zoe Saldana,Avatar,2009,239793790.8,760507625,Neytiri ,USA
+NAM,15,Michelle Rodriguez,Avatar,2009,224361688.6,760507625,Trudy Chacon,USA
+NAM,13,Chris Evans,The Avengers,2012,212329721.4,623357910,"Steve Rogers, Captain America",USA
+NAM,5,Elizabeth Banks,The Hunger Games: Catching Fire,2013,207977248.5,424668047,Effie Trinket,USA
+NAM,14,Vin Diesel,Guardians of the Galaxy Vol. 2,2017,207107822.1,389213281,Baby Groot(voice),USA
+NAM,11,Bradley Cooper,Guardians of the Galaxy Vol. 2,2017,179069848.2,389213281,Rocket (voice),USA
+NAM,4,Samuel L. Jackson,The Avengers,2012,177315959.9,623357910,Nick Fury,USA
+NAM,2,Scarlett Johansson,The Avengers,2012,176815752.4,623357910,"Natasha Romanoff,  Black Widow",USA
+NAM,3,Stanley Tucci,Beauty and the Beast,2017,175106970.8,504014165,Maestro Cadenza,USA
+NAM,20,Shia Labeouf,Transformers: Revenge of the Fallen,2009,171057781.5,402111870,Sam Witwicky,USA
+NAM,17,Steve Carell,Despicable Me 2,2013,137173617.8,368061265,Gru (voice),USA
+NAM,18,Ken Jeong,Despicable Me 2,2013,136918293.6,368061265,Floyd (voice),USA
+NAM,16,Dwayne Johnson,Furious 7,2015,127542083.3,353007020,Hobbs,USA
+NAM,10,Morgan Freeman,The Dark Knight,2008,125041885.9,534858444,Lucius Fox,USA
