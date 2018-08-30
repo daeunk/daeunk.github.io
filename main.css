@@ -1,0 +1,47 @@
+html,
+body {
+  max-height: 100%;
+  background-color: #000000;
+}
+
+.navbar {
+  background-color: #141414;
+}
+
+@font-face {
+    font-family: billboard;
+    src: url(marketsaturday.ttf);
+}
+/*neon name*/
+.daeun {
+  text-align: center;
+  margin: 200px auto;
+  font-family: billboard;
+  font-size: 200px;
+  color: #e1315b;
+  -webkit-animation:pulse 1.5s ease-in-out infinite alternate;
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px #e1315b,
+               0 0 30px #e1315b,
+               0 0 40px #B23452,
+               0 0 70px #B23452,
+               0 0 80px #B23452,
+               0 0 100px #B23452,
+               0 0 150px #B23452;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #e1315b,
+               0 0 15px #e1315b,
+               0 0 20px #B23452,
+               0 0 35px #B23452,
+               0 0 40px #B23452,
+               0 0 50px #B23452,
+               0 0 75px #B23452;
+  }
+}
