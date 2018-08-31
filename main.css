@@ -65,16 +65,13 @@ a:hover {
   transition: 0.5s;
 }
 
-/*a:hover:before .contact {
-  color: #ffec5c;
-  text-shadow: 0 0 5px #ffec5c;
+.active {
+  text-shadow: 0 0 25px #ffec5c;
 }
 
-a:hover .contact {
+.menu {
   color: #ffec5c;
-  text-shadow: 0 0 25px #ffec5c;
-  transition: 0.5s;
-}*/
+}
 
 /*background video*/
 header {
