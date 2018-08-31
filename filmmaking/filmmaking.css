@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+  background-color: #000000;
+}
+
+@font-face {
+    font-family: billboard;
+    src: url(../marketsaturday.ttf);
+}
+
+h1 {
+  color: #f47d4a;
+  text-shadow: 0 0 25px #f47d4a;
+  font-family: billboard;
+  font-size: 10vw;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 30px;
+}
+
+.about {
+  background-color: black;
+  padding-top: 4vw;
+}
+
+.menu {
+  color: #ffec5c;
+}
+
+.video {
+  padding-top: 56.25%;
+}
+
+iframe {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.filmmaking {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #141414;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffec5c;
+  font-weight: 500;
+}
+
+.active {
+  text-shadow: 0 0 25px #ffec5c;
+}
+
+a {
+  color: #ffec5c;
+}
+
+/*navigation bar glow effect*/
+a:hover:before {
+  color: #ffec5c;
+  text-shadow: 0 0 5px #ffec5c;
+}
+
+a:hover {
+  color: #ffec5c;
+  text-shadow: 0 0 25px #ffec5c;
+  transition: 0.5s;
+}

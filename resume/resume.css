@@ -26,6 +26,14 @@ h2 {
   text-align: center;
 }
 
+.titlearea {
+  text-align: center;
+}
+
+.menu {
+  color: #ffec5c;
+}
+
 h3 {
   color: white;
   font-family: billboard;
