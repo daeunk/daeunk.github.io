@@ -6,6 +6,12 @@ body {
 
 .navbar {
   background-color: #141414;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffec5c;
+}
+
+a {
+  color: #ffec5c;
 }
 
 @font-face {
@@ -19,11 +25,11 @@ body {
   font-family: billboard;
   font-size: 200px;
   color: #e1315b;
-  -webkit-animation:pulse 1.5s ease-in-out infinite alternate;
+  -webkit-animation:daeunpulse 1.5s ease-in-out infinite alternate;
   -webkit-backface-visibility: hidden;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes daeunpulse {
   from {
     text-shadow: 0 0 10px #fff,
                0 0 20px #e1315b,
@@ -43,5 +49,55 @@ body {
                0 0 40px #B23452,
                0 0 50px #B23452,
                0 0 75px #B23452;
+  }
+}
+
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
   }
 }
