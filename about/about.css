@@ -1,0 +1,33 @@
+html,
+body {
+  max-height: 100%;
+  background-color: #000000;
+}
+
+.navbar {
+  background-color: #141414;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffec5c;
+}
+
+a {
+  color: #ffec5c;
+}
+
+@font-face {
+    font-family: billboard;
+    src: url(../marketsaturday.ttf);
+}
+
+
+/*navigation bar glow effect*/
+a:hover:before {
+  color: #ffec5c;
+  text-shadow: 0 0 5px #ffec5c;
+}
+
+a:hover {
+  color: #ffec5c;
+  text-shadow: 0 0 25px #ffec5c;
+  transition: 0.5s;
+}
