@@ -86,10 +86,12 @@ header video {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  /*min-width: 100%;
+  min-height: 100%;*/
   width: auto;
   height: auto;
+  max-width: 120%;
+  max-height: 120%;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -109,7 +111,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.85;
+  opacity: 0.6;
   z-index: 1;
 }
 
