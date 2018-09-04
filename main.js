@@ -5,15 +5,11 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 var tv,
 		playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
 var vid = [
-      {'videoId': 'BYFe2KVGBDI', 'startSeconds': 13, 'endSeconds': 18, 'suggestedQuality': 'hd720'},
-			{'videoId': '6QZzw7E0Q7I', 'startSeconds': 63, 'endSeconds': 67, 'suggestedQuality': 'hd720'},
-      {'videoId': 'lZvB19FN_i0', 'startSeconds': 288, 'endSeconds': 300, 'suggestedQuality': 'hd720'},
-			{'videoId': '6QZzw7E0Q7I', 'startSeconds': 231, 'endSeconds': 238, 'suggestedQuality': 'hd720'},
-			{'videoId': 'u5xAyLdedjo', 'startSeconds': 0, 'endSeconds': 5, 'suggestedQuality': 'hd720'}
-		],
+      {'videoId': '3fb3sx2Ovic', 'suggestedQuality': 'hd720'}
+		];
 		// randomVid = Math.floor(Math.random() * vid.length),
   //   currVid = randomVid;
-  currVid = 0;
+  // currVid = 0;
 
 // $('.hi em:last-of-type').html(vid.length);
 
@@ -21,32 +17,20 @@ function onYouTubePlayerAPIReady(){
   var tv_height = $('.tv').height();
   var tv_width = $('.tv').width();
   tv = new YT.Player('tv', {height: tv_height, width: tv_width, events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange}, playerVars: playerDefaults});
-  var tv_container = document.getElementsByClassName('tv')[0];
-  var x = $('.tv').height()
-  console.log(x);
-  tv.height = $('.tv').height();
-  tv.width = $('.tv').width();
-  console.log
 }
 
 function onPlayerReady(){
-  tv.loadVideoById(vid[currVid]);
+  tv.loadVideoById(vid[0]);
   tv.mute();
 }
 
 function onPlayerStateChange(e) {
-  if (e.data === 1){
+  if (e.data === 1 || e.data === 3){
     $('#tv').addClass('active');
     // $('.hi em:nth-of-type(2)').html(currVid + 1);
-  } else if (e.data === 2){
+  } else if (e.data === 0){
     $('#tv').removeClass('active');
-    if(currVid === vid.length - 1){
-      currVid = 0;
-    } else {
-      currVid++;  
-    }
-    tv.loadVideoById(vid[currVid]);
-    console.log(currVid, vid[currVid].videoId, vid[currVid].startSeconds);
+    tv.loadVideoById(vid[0]);
     // tv.seekTo(vid[currVid].startSeconds);
   }
 }
