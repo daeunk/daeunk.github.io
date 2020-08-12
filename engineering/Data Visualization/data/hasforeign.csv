@@ -1,0 +1,949 @@
+,Movie,year,bo,numforeign,numactor,NorthAmerica,Caribbean,Australia,MiddleEast,Europe,Africa,Asia,SouthAmerica
+1,"10,000 BC",2008,94784201,6,15,yes,yes,yes,yes,yes,yes,no,no
+2,12 Years a Slave,2013,56671993,1,15,yes,no,no,no,yes,no,no,no
+3,13 Hours,2016,52853219,2,15,yes,no,no,no,yes,no,no,no
+4,1408,2007,71985628,2,15,yes,no,no,no,yes,no,no,no
+5,17 Again,2009,64167069,2,15,yes,no,no,no,yes,no,no,no
+6,2016: Obama's America,2012,33449086,1,15,yes,no,no,no,no,no,yes,no
+7,21,2008,81159365,2,15,yes,no,no,no,yes,no,no,no
+8,21 & Over,2013,25682380,3,15,yes,no,no,no,no,no,yes,no
+9,22 Jump Street,2014,191719337,1,15,yes,no,no,no,yes,no,no,no
+10,27 Dresses,2008,76808654,1,15,yes,no,no,no,yes,no,no,no
+11,3 Days to Kill,2014,30697999,6,15,yes,no,no,no,yes,no,no,no
+12,3:10 to Yuma,2007,53606916,2,15,yes,no,yes,no,yes,no,no,no
+13,30 Days of Night,2007,39568996,10,15,yes,no,yes,no,yes,no,no,no
+14,30 Minutes or Less,2011,37053924,1,15,yes,no,no,yes,no,no,no,no
+15,47 Meters Down,2017,43609741,2,6,yes,no,yes,no,yes,no,no,no
+16,47 Ronin,2013,38362475,10,15,no,no,no,yes,yes,no,yes,no
+17,50/50,2011,35014192,9,15,yes,no,yes,no,yes,no,yes,no
+18,9,2009,31743332,1,10,yes,no,no,no,no,no,no,no
+19,90 Minutes in Heaven,2015,4700361,2,15,yes,no,no,no,no,no,no,no
+20,A Broken Code,2012,7853000,1,15,yes,no,no,no,no,no,no,no
+21,A Cure for Wellness,2016,8106986,7,15,yes,no,no,no,yes,no,no,no
+22,A Day as Headmaster,2015,5500000,1,1,no,no,no,no,yes,no,no,no
+23,A Dog's Purpose,2017,64304940,5,15,yes,no,yes,no,yes,no,no,no
+24,A Good Day to Die Hard,2013,67349198,9,15,yes,no,yes,no,yes,no,yes,no
+25,A Haunted House,2013,40041683,1,13,yes,no,no,no,no,no,no,yes
+26,A Mighty Heart,2007,9176787,1,15,yes,no,no,no,yes,no,no,no
+27,A Million Ways to Die in the West,2014,43139300,2,15,yes,no,no,no,yes,yes,no,no
+28,A Single Man,2009,9166863,3,15,yes,no,no,no,yes,no,no,no
+29,A Very Harold & Kumar 3D Christmas,2011,35033759,3,15,yes,no,no,no,yes,no,yes,yes
+30,A Walk Among the Tombstones,2014,26307600,4,15,yes,no,no,no,yes,no,no,no
+31,A Walk in the Woods,2015,29467855,1,15,yes,no,no,no,yes,no,no,no
+32,Abduction,2011,28087155,1,15,yes,no,no,no,yes,no,no,no
+33,About Last Night,2014,48637684,2,15,yes,yes,no,no,no,no,yes,no
+34,Abraham Lincoln: Vampire Hunter,2012,37519139,5,15,yes,no,yes,no,yes,no,no,no
+35,Across the Universe,2007,24343673,3,15,yes,no,no,no,yes,no,no,no
+36,Act of Valor,2012,70012847,4,15,yes,no,no,no,yes,no,yes,no
+37,After Earth,2013,60522097,6,14,yes,no,yes,no,yes,no,no,no
+38,Alex Cross,2012,25888412,5,15,yes,no,no,yes,yes,no,yes,no
+39,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",2014,66954149,1,15,yes,no,yes,no,no,no,no,no
+40,Alice in Wonderland,2010,334191110,11,15,yes,no,yes,no,yes,no,no,no
+41,Alice Through the Looking Glass,2016,77042381,13,15,yes,no,yes,no,yes,no,no,no
+42,Alien: Covenant,2017,74243930,4,14,yes,no,yes,no,yes,no,no,no
+43,Aliens vs. Predator: Requiem,2007,41797066,7,15,yes,no,no,no,yes,no,no,no
+44,All About Steve,2009,33860010,1,15,yes,no,no,no,no,no,no,no
+45,All Eyez on Me,2017,44922302,1,16,yes,no,no,no,yes,no,no,no
+46,Allegiant,2016,66184051,4,15,yes,no,no,no,yes,no,yes,no
+47,Allied,2016,40069087,6,15,yes,no,no,no,yes,yes,no,no
+48,Aloha,2015,20991497,3,15,yes,no,no,no,yes,yes,no,no
+49,Alvin and the Chipmunks,2007,217326974,1,15,yes,no,no,no,no,no,no,no
+50,American Assassin,2017,35768742,5,15,yes,no,no,no,yes,no,no,no
+51,American Reunion,2012,57011521,3,15,yes,no,no,no,no,no,yes,yes
+52,American Sniper,2014,350126372,1,15,yes,no,yes,no,no,no,no,no
+53,An Inconvenient Sequel: Truth to Power,2017,3077667,2,8,yes,no,no,no,yes,no,yes,no
+54,Annabelle,2014,84273813,1,15,yes,no,no,no,yes,no,no,no
+55,Annabelle: Creation,2017,64156901,4,15,yes,no,yes,no,yes,no,no,no
+56,Annie,2014,85911262,3,15,yes,no,yes,no,yes,no,no,no
+57,Ant-Man,2015,180202163,2,15,yes,no,no,no,yes,no,no,no
+58,Appaloosa,2008,20207003,3,15,yes,no,no,no,yes,no,no,no
+59,Arbitrage,2012,7918283,3,15,yes,no,no,no,yes,no,no,no
+60,Are We Done Yet?,2007,49631958,4,15,yes,no,no,no,no,no,no,yes
+61,Arthur,2011,33035397,4,15,yes,no,no,no,yes,no,no,no
+62,Arthur Christmas,2011,46462469,12,15,yes,no,yes,no,yes,no,no,no
+63,"As Above, So Below",2014,21197315,4,15,yes,no,no,no,yes,no,no,no
+64,Assassin's Creed,2016,54647948,11,15,yes,no,yes,yes,yes,no,no,no
+65,Astro Boy,2009,19548064,5,15,yes,no,no,no,yes,yes,no,no
+66,Atomic Blonde,2017,47158045,8,15,yes,no,no,no,yes,yes,no,no
+67,Atonement,2007,50927067,9,15,yes,no,no,no,yes,no,no,no
+68,August Rush,2007,31655091,4,15,yes,no,yes,no,yes,no,no,no
+69,August: Osage County,2013,37738503,2,15,yes,no,no,no,yes,no,no,no
+70,Australia,2008,49554002,7,15,no,no,yes,no,no,no,no,no
+71,Avatar,2009,760507625,2,15,yes,no,no,no,yes,no,no,no
+72,Avengers: Age of Ultron,2015,459005868,5,15,yes,no,yes,no,yes,no,no,no
+73,Away We Go,2009,9451946,2,15,yes,no,no,no,yes,no,no,no
+74,Bad Words,2013,7764027,1,15,yes,no,no,no,no,no,yes,no
+75,Baggage Claim,2013,21564616,3,15,yes,no,no,no,yes,yes,no,no
+76,Balls of Fury,2007,32844290,2,15,yes,no,no,no,yes,no,yes,no
+77,Band Aid,2017,237535,1,15,yes,no,no,no,no,no,no,yes
+78,Barbershop: The Next Cut,2016,54030051,1,15,yes,yes,no,no,no,no,no,no
+79,Batman v Superman: Dawn of Justice,2016,330360194,6,15,yes,no,yes,no,yes,no,yes,no
+80,Battle Los Angeles,2011,83552429,2,15,yes,no,no,no,no,yes,no,no
+81,Battleship,2012,65422625,6,15,yes,yes,yes,no,yes,no,yes,no
+82,Baywatch,2017,58060186,3,15,yes,no,no,no,no,no,yes,yes
+83,Beastly,2011,27865571,4,15,yes,no,no,no,yes,no,no,no
+84,Beatriz at Dinner,2017,6457859,2,13,yes,no,no,no,no,no,no,yes
+85,Beauty and the Beast,2017,504014165,11,15,yes,no,no,no,yes,no,no,no
+86,Because I Said So,2007,42674040,1,15,yes,no,no,no,no,no,no,no
+87,Before I Fall,2017,12230791,2,15,yes,no,no,no,no,no,no,no
+88,Before Midnight,2013,8114627,5,15,yes,no,no,no,yes,no,no,no
+89,Beginners,2010,5790894,5,15,yes,no,no,no,yes,yes,no,no
+90,Ben-Hur,2016,26384681,9,15,yes,no,no,yes,yes,no,no,no
+91,Beowulf,2007,82161969,5,15,yes,no,no,no,yes,no,no,no
+92,Bernie,2011,9203192,1,15,yes,no,no,no,yes,no,no,no
+93,Beverly Hills Chihuahua,2008,94514402,5,15,yes,no,no,no,yes,no,no,yes
+94,"Big Mommas: Like Father, Like Son",2011,37915414,4,15,yes,no,yes,no,yes,no,no,no
+95,Birdman or (The Unexpected Virtue of Ignorance),2014,42340598,3,15,yes,no,no,no,yes,no,no,no
+96,Black Mass,2015,62575678,3,15,yes,no,yes,no,yes,no,no,no
+97,Blackhat,2015,7097125,5,15,yes,no,yes,no,yes,no,yes,no
+98,Blended,2014,46294610,1,15,yes,no,no,no,yes,no,no,no
+99,Blue Jasmine,2013,33405481,3,15,yes,no,yes,no,yes,no,no,no
+100,Blue Valentine,2010,9737892,1,15,yes,no,no,no,no,no,no,no
+101,Body of Lies,2008,39394666,12,15,yes,no,yes,yes,yes,no,no,yes
+102,Born to Be Wild,2011,25449773,2,3,yes,no,no,no,yes,yes,no,no
+103,Boyhood,2014,25379975,1,15,yes,no,no,no,no,no,no,no
+104,Brave,2012,237283207,8,15,yes,no,no,no,yes,no,no,no
+105,Breach,2007,33231264,4,15,yes,no,no,no,no,no,no,no
+106,Bridge of Spies,2015,72313754,1,15,yes,no,no,no,yes,no,no,no
+107,Bridge to Terabithia,2007,82272442,1,15,yes,no,yes,no,no,no,no,no
+108,Bridget Jones's Baby,2016,24252420,12,15,yes,no,no,no,yes,no,yes,no
+109,Brooklyn's Finest,2009,27154426,2,15,yes,no,no,no,yes,no,no,no
+110,Brothers,2009,28501651,3,15,yes,no,no,yes,yes,no,no,no
+111,Bruno,2009,60054530,4,15,yes,no,no,no,yes,no,no,no
+112,Bullet to the Head,2012,9483821,2,15,yes,no,no,no,yes,no,no,no
+113,Burlesque,2010,39440655,1,15,yes,no,no,no,yes,no,no,no
+114,Burn After Reading,2008,60355347,2,15,yes,no,no,no,yes,no,no,no
+115,Captain America: Civil War,2016,408084349,5,15,yes,no,no,no,yes,no,no,no
+116,Captain America: The Winter Soldier,2014,259766572,7,15,yes,no,yes,no,yes,no,no,no
+117,Captain Underpants: The First Epic Movie,2017,71163113,1,15,yes,no,no,no,no,no,no,no
+118,Carrie,2013,35266619,5,15,yes,no,no,no,yes,no,no,no
+119,Cars 2,2011,191452396,6,15,yes,no,no,no,yes,yes,no,no
+120,Cars 3,2017,152888836,1,15,yes,no,no,no,no,no,no,no
+121,Casa de mi Padre,2012,5895238,5,15,yes,no,no,no,no,no,no,yes
+122,Cats & Dogs: The Revenge of Kitty Galore,2010,43585753,1,15,yes,no,no,no,yes,no,no,no
+123,Cave of Forgotten Dreams,2010,5234785,1,14,no,no,no,no,yes,no,no,no
+124,Champion,2017,175232,2,15,yes,yes,no,no,yes,no,no,no
+125,Chappie,2015,31569268,5,15,yes,no,yes,no,yes,yes,no,no
+126,Charlie St. Cloud,2010,31162545,4,15,yes,no,no,no,no,no,no,no
+127,Charlie Wilson's War,2007,66661095,3,15,yes,no,no,no,yes,no,no,no
+128,Chasing Mavericks,2012,6002756,1,15,yes,no,no,no,yes,no,no,no
+129,Chef,2014,30640336,3,15,yes,no,no,no,no,no,no,yes
+130,CHIPS,2017,18591819,4,15,yes,no,yes,no,no,no,yes,yes
+131,Chronicle,2012,64575175,3,15,yes,no,yes,no,no,yes,no,no
+132,Cinderella,2015,201151353,12,15,no,no,yes,no,yes,no,no,no
+133,Closed Circuit,2013,5733310,7,15,yes,no,no,no,yes,no,no,no
+134,Cloud Atlas,2012,27108272,11,15,yes,no,no,no,yes,yes,yes,no
+135,Cloverfield,2008,80048433,3,15,yes,no,no,no,no,no,yes,no
+136,Collateral Beauty,2016,30982955,4,15,yes,no,no,no,yes,no,no,no
+137,College Road Trip,2008,45588608,2,15,yes,no,no,no,yes,no,no,no
+138,Columbus,2017,150829,1,15,yes,no,no,no,no,no,yes,no
+139,Conan the Barbarian,2011,21295021,4,14,yes,no,yes,no,yes,no,no,no
+140,Concussion,2015,34531832,5,15,yes,no,no,no,yes,no,yes,no
+141,Confessions of a Shopaholic,2009,44277350,4,15,yes,no,no,no,yes,yes,no,no
+142,Contagion,2011,75658097,3,15,yes,no,no,no,yes,no,yes,no
+143,Conviction,2010,6783129,3,15,yes,no,yes,no,yes,no,no,no
+144,Cop Out,2010,44875481,2,15,yes,no,no,no,yes,no,no,no
+145,Coraline,2009,75286229,3,15,yes,no,no,no,yes,no,no,no
+146,"Crazy, Stupid, Love.",2011,84351197,1,15,yes,no,no,no,no,no,no,no
+147,Crimson Peak,2015,31056945,7,15,yes,no,yes,no,yes,no,no,no
+148,Crown Heights,2017,238558,1,15,yes,yes,no,no,no,no,no,no
+149,Daddy's Little Girls,2007,31339647,1,15,yes,no,no,no,yes,no,no,no
+150,Dan in Real Life,2007,47642963,3,15,yes,no,no,no,yes,no,no,no
+151,Danny Collins,2015,5348317,2,15,yes,no,no,no,yes,no,no,no
+152,Dark Shadows,2012,79727149,7,15,yes,no,yes,no,yes,no,no,no
+153,Date Night,2010,98711404,1,15,yes,no,no,no,yes,no,no,no
+154,Dawn of the Planet of the Apes,2014,208545589,6,15,yes,no,yes,no,yes,no,no,no
+155,Daybreakers,2009,30101577,1,15,yes,no,yes,no,no,no,no,no
+156,Deadpool,2016,363070709,7,15,yes,no,no,no,yes,no,no,yes
+157,Death at a Funeral,2010,42739347,1,15,yes,no,no,no,yes,no,no,no
+158,Death Race,2008,36316032,8,15,yes,no,yes,no,yes,no,yes,no
+159,Death Sentence,2007,9525276,2,15,yes,no,yes,no,no,yes,no,no
+160,Defiance,2008,28644813,11,15,yes,no,no,no,yes,no,yes,no
+161,"Definitely, Maybe",2008,31973840,1,15,yes,no,no,no,no,no,no,no
+162,Definition,2010,63407915,1,1,no,no,no,no,no,no,no,yes
+163,Deliver Us from Evil,2014,30577122,4,15,yes,no,yes,no,yes,no,no,yes
+164,Delivery Man,2013,30664106,2,15,yes,no,no,no,yes,no,no,no
+165,Despicable Me,2010,251513985,5,15,yes,no,yes,no,yes,no,no,no
+166,Despicable Me 2,2013,368061265,4,15,yes,no,no,yes,yes,no,no,no
+167,Despicable Me 3,2017,251774330,4,15,yes,no,no,no,yes,no,no,no
+168,Detroit,2017,15525229,3,15,yes,no,no,no,yes,no,no,no
+169,Devil,2010,33583175,6,15,yes,no,no,no,yes,no,no,no
+170,Diary of a Wimpy Kid,2010,64003625,2,15,yes,no,no,no,no,no,no,no
+171,Diary of a Wimpy Kid: Dog Days,2012,49008662,4,15,yes,no,no,no,yes,no,no,no
+172,Diary of a Wimpy Kid: Rodrick Rules,2011,52698535,3,15,yes,no,no,no,no,no,no,no
+173,Did You Hear About the Morgans?,2009,29580087,4,15,yes,no,no,no,yes,no,no,no
+174,Dinner for Schmucks,2010,73026337,4,15,yes,no,yes,no,yes,no,no,no
+175,Dirty Grandpa,2016,35537564,1,15,yes,no,no,no,no,no,no,no
+176,Disconnect,2012,7435950,1,15,yes,no,no,no,yes,no,no,no
+177,Disturbia,2007,80209692,2,15,yes,no,no,no,no,no,no,no
+178,Doctor Strange,2016,232641920,8,15,yes,no,no,no,yes,no,no,no
+179,Don Jon,2013,24477704,1,15,yes,no,no,no,no,no,no,no
+180,Don't Be Afraid of the Dark,2010,24042490,6,15,yes,no,yes,no,yes,no,no,no
+181,Don't Breathe,2016,89210468,3,14,yes,no,no,no,yes,no,yes,no
+182,Doubt,2008,33422556,2,15,yes,no,no,no,yes,no,no,no
+183,Dracula Untold,2014,56280355,10,15,yes,no,no,no,yes,no,no,no
+184,Drag Me to Hell,2009,42100625,4,15,yes,no,no,no,yes,no,yes,no
+185,Dragonball: Evolution,2009,9353573,4,15,yes,no,no,no,yes,no,yes,no
+186,Dream House,2011,21283440,10,15,yes,no,yes,no,yes,yes,no,no
+187,Drive,2011,35060689,4,15,yes,no,no,no,yes,no,no,yes
+188,Dumb and Dumber To,2014,86208010,3,15,yes,no,no,no,yes,no,no,no
+189,Dunkirk,2017,187037289,6,15,no,no,no,no,yes,no,no,no
+190,Duplicity,2009,40572825,4,15,yes,no,no,no,yes,no,no,no
+191,Earth,2007,38051724,4,5,yes,no,no,no,yes,no,yes,no
+192,Earth to Echo,2014,38916903,2,15,yes,no,no,no,yes,no,no,no
+193,Easy A,2010,58401464,1,15,yes,no,no,no,yes,no,no,no
+194,Eat Pray Love,2010,80574010,1,15,yes,no,no,no,no,no,no,no
+195,Edge of Darkness,2010,43313890,5,15,yes,no,no,no,yes,no,no,no
+196,Elysium,2013,93050117,6,15,yes,no,no,no,yes,yes,no,yes
+197,Ender's Game,2013,61737191,3,15,yes,no,no,no,yes,no,no,no
+198,Endless Love,2014,23393765,7,15,yes,no,yes,no,yes,yes,no,no
+199,Entourage,2015,32361416,3,15,yes,no,yes,no,yes,no,no,no
+200,Epic Movie,2007,39739367,2,15,yes,no,no,no,yes,no,no,no
+201,Escape from Planet Earth,2013,57012977,6,15,yes,no,no,no,yes,no,no,yes
+202,Escape Plan,2013,25132228,4,15,yes,no,no,no,yes,no,no,no
+203,Everest,2015,43482270,8,15,yes,no,yes,no,yes,no,yes,no
+204,Everybody's Fine,2009,8855646,3,15,yes,no,no,no,yes,no,no,no
+205,"Everything, Everything",2017,34000284,7,15,yes,no,no,no,yes,no,no,no
+206,Evil Dead,2013,54239856,3,15,yes,no,yes,no,yes,no,no,no
+207,Exodus: Gods and Kings,2014,65014513,11,15,yes,no,yes,yes,yes,no,no,no
+208,Extremely Loud & Incredibly Close,2011,31847881,2,15,yes,yes,yes,no,no,no,no,no
+209,Fair Game,2010,9528092,3,15,yes,no,yes,no,yes,no,yes,no
+210,Fame,2009,22455510,1,15,yes,yes,no,no,no,no,no,no
+211,Fantastic Beasts and Where to Find Them,2016,234037575,5,15,yes,no,yes,no,yes,no,no,no
+212,Fantastic Four,2015,56117548,2,15,yes,no,no,no,yes,no,no,no
+213,Fantastic Mr. Fox,2009,21002919,3,15,yes,no,no,no,yes,no,no,no
+214,Fast Five,2011,209837675,7,15,yes,no,no,no,yes,no,yes,yes
+215,Faster,2010,23240020,1,15,yes,no,no,no,yes,no,no,no
+216,Fences,2016,57642961,1,10,yes,no,no,no,yes,no,no,no
+217,Fighting,2009,23036320,3,15,yes,no,no,no,no,no,no,yes
+218,Final Destination 5,2011,42587643,6,15,yes,no,no,no,no,no,no,no
+219,Finding Dory,2016,486295561,3,15,yes,no,no,no,yes,no,no,no
+220,Fireproof,2008,33456317,2,15,yes,no,no,no,yes,no,no,no
+221,Fist Fight,2017,32153522,1,15,yes,no,no,yes,no,no,no,no
+222,Flight,2012,93772375,2,15,yes,no,no,no,yes,no,no,no
+223,Focus,2015,53862963,2,15,yes,no,yes,no,no,no,yes,no
+224,Fool's Gold,2008,70231041,5,15,yes,no,yes,no,yes,no,no,no
+225,For Colored Girls,2010,37721949,1,15,yes,no,no,no,yes,no,no,no
+226,Forgetting Sarah Marshall,2008,63172463,2,15,yes,no,no,no,yes,no,no,no
+227,Fracture,2007,39015018,5,15,yes,no,yes,no,yes,no,no,no
+228,Frankenweenie,2012,35291068,2,10,yes,no,no,no,no,no,no,no
+229,Fred Claus,2007,72006777,5,15,yes,no,no,no,yes,no,no,no
+230,Free Birds,2013,55750480,3,15,yes,no,no,no,yes,no,no,no
+231,Free State of Jones,2016,20758378,1,15,yes,no,no,no,yes,no,no,no
+232,Freedom Writers,2007,36605602,1,15,yes,no,no,no,yes,no,no,no
+233,Friday the 13th,2009,65002019,1,15,yes,no,no,no,no,no,no,no
+234,Friends with Benefits,2011,55802754,2,15,yes,no,no,no,yes,no,no,no
+235,Friends with Kids,2011,7250054,1,15,yes,no,no,no,yes,no,no,no
+236,Frost/Nixon,2008,18593156,5,15,yes,no,no,no,yes,no,no,no
+237,Frozen,2013,400738009,2,15,yes,no,no,no,yes,no,no,no
+238,Fun Size,2012,9402410,2,15,yes,no,no,no,no,no,no,no
+239,Funny People,2009,51855045,3,15,yes,no,yes,no,yes,no,no,no
+240,Furious 6,2013,238679850,6,15,yes,no,no,no,yes,no,yes,yes
+241,Furious 7,2015,353007020,6,15,yes,no,no,no,yes,no,no,yes
+242,Fury,2014,85817906,5,15,yes,no,yes,no,yes,no,no,no
+243,Gamer,2009,20488579,1,15,yes,no,no,no,yes,no,no,no
+244,Gangster Squad,2013,46000903,1,15,yes,no,no,no,no,no,no,no
+245,Georgia Rule,2007,18882880,1,15,yes,no,no,no,yes,no,no,no
+246,Get Hard,2015,90411453,1,15,yes,no,no,no,no,no,no,yes
+247,Get Him to the Greek,2010,60974475,6,15,yes,no,yes,no,yes,no,no,yes
+248,Get Low,2009,9176553,2,15,yes,no,no,no,yes,no,no,no
+249,Get on Up,2014,30513940,2,15,yes,no,no,no,yes,no,no,no
+250,Get Out,2017,175484140,1,15,yes,no,no,no,yes,no,no,no
+251,Ghost in the Shell,2017,40533014,6,15,yes,no,yes,no,yes,no,yes,no
+252,Ghost Rider: Spirit of Vengeance,2011,51774002,8,15,yes,no,no,no,yes,no,no,no
+253,Ghosts of Girlfriends Past,2009,55250026,1,15,yes,no,no,no,no,no,no,no
+254,Gifted,2017,24801212,3,15,yes,no,yes,no,yes,no,yes,no
+255,Gnomeo & Juliet,2011,99967670,12,15,yes,no,no,no,yes,no,no,no
+256,God's Not Dead,2014,60755732,1,15,yes,no,no,yes,no,no,no,no
+257,Gods of Egypt,2016,31153464,8,15,yes,no,yes,no,yes,no,no,no
+258,Godzilla,2014,200676069,7,15,yes,no,no,no,yes,no,yes,no
+259,Going in Style2017,2017,45003463,1,15,yes,no,no,no,yes,no,no,no
+260,Gone Baby Gone,2007,20300218,1,15,yes,no,no,no,no,yes,no,no
+261,Good Deeds,2012,35025791,2,15,yes,no,no,no,yes,no,no,no
+262,Good Luck Chuck,2007,34925283,8,15,yes,no,no,no,no,yes,yes,no
+263,Good Time,2017,356951,2,15,yes,no,no,no,yes,yes,no,no
+264,Goosebumps,2015,80080379,1,15,yes,no,no,no,yes,no,no,no
+265,Grandma,2015,6980421,1,15,yes,no,no,no,no,no,yes,no
+266,Green Zone,2010,35053660,2,15,yes,no,no,yes,yes,no,no,no
+267,Grindhouse,2007,25031037,2,15,yes,no,yes,no,yes,no,no,no
+268,Grudge Match,2013,29807260,1,15,yes,no,no,no,no,no,no,no
+269,Guardians of the Galaxy,2014,333176600,4,15,yes,no,no,no,yes,yes,no,no
+270,Guardians of the Galaxy Vol. 2,2017,389213281,5,15,yes,no,no,no,yes,no,no,no
+271,Gulliver's Travels,2010,42779261,8,15,yes,no,no,no,yes,no,no,no
+272,Hacksaw Ridge,2016,67209615,4,15,yes,no,yes,no,yes,yes,no,no
+273,"Hail, Caesar!",2016,30080225,3,15,yes,no,no,no,yes,no,no,no
+274,Hall Pass,2011,45060734,2,15,yes,no,yes,no,yes,no,no,no
+275,Halloween,2007,58272029,3,15,yes,no,no,no,yes,no,no,no
+276,Halloween II,2009,33392973,5,15,yes,no,no,no,yes,no,no,no
+277,Hancock,2008,227946274,3,15,yes,no,no,no,yes,yes,no,no
+278,Hanna,2011,40259119,7,15,yes,no,yes,no,yes,no,no,no
+279,Hannah Montana and Miley Cyrus: Best of Both Worlds Concert,2008,65280346,1,15,yes,no,no,no,yes,no,no,no
+280,Hannibal Rising,2007,27670986,11,15,no,no,no,no,yes,no,yes,no
+281,Hansel & Gretel: Witch Hunters,2013,55703475,9,15,yes,no,no,no,yes,no,no,no
+282,Happy Death Day,2017,43300000,1,15,yes,no,no,no,yes,no,no,no
+283,Hardcore Henry,2015,9244565,6,15,yes,no,no,no,yes,yes,yes,no
+284,Harold & Kumar Escape from Guantanamo Bay,2008,38087366,2,15,yes,no,no,no,no,no,yes,yes
+285,Harry Potter and the Deathly Hallows: Part 1,2010,295983305,14,15,no,no,no,no,yes,no,no,no
+286,Harry Potter and the Deathly Hallows: Part 2,2011,381011219,14,15,no,no,no,no,yes,no,no,no
+287,Harry Potter and the Half-Blood Prince,2009,301959197,14,15,no,no,no,no,yes,no,no,no
+288,Harry Potter and the Order of the Phoenix,2007,292004738,14,15,yes,no,no,no,yes,no,no,no
+289,Haywire,2011,18942396,2,15,yes,no,yes,no,yes,no,no,no
+290,He's Just Not That Into You,2009,93953653,2,14,yes,no,no,no,yes,no,no,no
+291,Heaven Is for Real,2014,91443253,4,15,yes,no,no,no,yes,no,no,no
+292,Hellboy II: The Golden Army,2008,75754670,5,15,yes,no,no,no,yes,no,no,no
+293,Her,2013,25568251,3,15,yes,no,no,no,yes,no,no,no
+294,Hercules,2014,72688614,11,15,yes,no,no,no,yes,no,no,no
+295,Here Comes the Boom,2012,45290318,5,15,yes,no,no,no,yes,no,yes,no
+296,Hereafter,2010,32746941,5,15,yes,no,no,no,yes,no,no,no
+297,High School Musical 3: Senior Year,2008,90559416,2,15,yes,no,no,no,yes,no,yes,no
+298,Hitchcock,2012,6008677,7,15,yes,no,yes,no,yes,no,no,no
+299,Hitman,2007,39687694,7,15,yes,no,no,no,yes,no,no,yes
+300,Hitman: Agent 47,2015,22467450,2,14,yes,no,no,no,yes,no,yes,no
+301,Home,2015,177397510,1,10,yes,yes,no,no,no,no,no,no
+302,Homefront,2013,19783777,2,15,yes,no,no,no,yes,no,no,no
+303,Horrible Bosses 2,2014,54445357,1,15,yes,no,no,no,yes,no,no,no
+304,Horton Hears a Who!,2008,154529439,4,15,yes,no,no,no,no,yes,no,no
+305,Hot Fuzz,2007,23637265,11,15,yes,no,no,no,yes,no,no,no
+306,Hot Pursuit,2015,34507079,4,15,yes,no,no,no,yes,no,yes,yes
+307,Hot Tub Time Machine,2010,50287556,2,15,yes,no,no,no,yes,no,no,no
+308,House at the End of the Street,2012,31611916,6,15,yes,no,no,no,no,no,no,no
+309,How Do You Know,2010,30212620,1,15,yes,no,no,no,yes,no,no,no
+310,How to Be a Latin Lover,2017,32088029,4,15,yes,no,no,no,no,no,no,no
+311,How to Be Single,2016,46813366,1,15,yes,no,yes,no,no,no,no,no
+312,Hugo,2011,73864507,12,15,yes,no,yes,no,yes,no,no,no
+313,I Am Legend,2007,256386216,1,15,yes,no,no,no,no,no,no,yes
+314,I Am Number Four,2011,55100437,4,15,yes,no,yes,no,yes,no,no,no
+315,I Can Do Bad All by Myself,2009,51733921,1,15,yes,no,no,no,yes,no,no,no
+316,I Don't Know How She Does It,2011,9659074,2,15,yes,yes,no,no,yes,no,no,no
+317,"I, Frankenstein",2014,19075290,10,15,yes,no,yes,no,yes,no,no,no
+318,I'll See You in My Dreams,2015,7425963,1,15,yes,no,no,no,yes,no,no,no
+319,Ice Age: Collision Course,2016,64063008,1,15,yes,no,no,no,yes,no,no,no
+320,If I Stay,2014,50474843,5,15,yes,no,no,no,yes,no,no,no
+321,Igor,2008,19528602,3,15,yes,no,no,no,yes,yes,no,no
+322,Immortals,2011,83504017,10,15,yes,no,yes,no,yes,no,yes,no
+323,In the Heart of the Sea,2015,25020758,11,15,yes,no,yes,no,yes,no,no,no
+324,In Time,2011,37520095,2,15,yes,no,no,no,yes,no,no,no
+325,Inception,2010,292576195,7,15,yes,no,no,no,yes,no,yes,no
+326,Indiana Jones and the Kingdom of the Crystal Skull,2008,317101119,9,15,yes,no,yes,no,yes,no,yes,yes
+327,Inferno,2016,34343574,5,15,yes,no,no,no,yes,no,yes,no
+328,Ingrid Goes West,2017,440503,1,15,yes,no,no,no,no,no,no,no
+329,Inherent Vice,2014,8110975,4,15,yes,no,no,no,yes,no,yes,no
+330,Inside Out,2015,356461711,1,15,yes,no,no,no,yes,no,no,no
+331,Insidious,2010,54009150,3,15,yes,no,yes,no,no,no,no,no
+332,Insidious: Chapter 2,2013,83586447,3,15,yes,no,yes,no,no,no,no,no
+333,Insidious: Chapter 3,2015,52218558,3,15,yes,no,yes,no,yes,no,no,no
+334,Into the Storm,2014,47602194,3,15,yes,no,yes,no,yes,no,no,no
+335,Into the Wild,2007,18352454,1,15,yes,no,no,no,yes,no,no,no
+336,Invictus,2009,37491364,6,15,yes,no,yes,no,yes,yes,no,no
+337,Iron Man,2008,318412101,3,15,yes,no,no,yes,yes,yes,no,no
+338,Iron Man 2,2010,312433331,2,15,yes,no,no,no,yes,no,no,no
+339,Iron Man Three,2013,409013994,5,15,yes,no,no,no,yes,no,yes,no
+340,Irrational Man,2015,4027764,2,15,yes,no,no,no,yes,no,no,no
+341,It Comes at Night,2017,13778239,2,10,yes,no,yes,no,yes,no,no,no
+342,It's Kind of a Funny Story,2010,6350058,2,15,yes,no,no,no,yes,no,yes,no
+343,J. Edgar,2011,37306030,3,15,yes,no,no,no,yes,no,no,no
+344,Jack and Jill,2011,74158157,3,15,yes,no,no,no,no,no,yes,no
+345,Jack Reacher,2012,80070736,6,15,yes,no,yes,no,yes,no,no,no
+346,Jack Reacher: Never Go Back,2016,58399160,1,15,yes,no,no,no,no,no,no,no
+347,Jack Ryan: Shadow Recruit,2014,50577412,8,15,yes,no,no,no,yes,no,yes,no
+348,Jack the Giant Slayer,2013,65187603,9,15,yes,no,no,no,yes,no,no,no
+349,Jersey Boys,2014,47034272,1,15,yes,no,no,no,yes,no,no,no
+350,Jerusalem,2013,7993108,1,9,no,no,no,no,yes,no,no,no
+351,John Carter,2012,73078100,9,15,yes,no,no,no,yes,no,no,no
+352,John Wick,2014,43037835,5,15,yes,no,no,yes,yes,no,no,no
+353,John Wick: Chapter 2,2017,92029184,5,15,yes,no,yes,yes,yes,no,no,no
+354,Johnny English Reborn,2011,8305970,11,15,yes,no,no,no,yes,no,yes,no
+355,Journey to the South Pacific,2013,7349357,1,7,no,no,yes,no,no,no,no,no
+356,Joy,2015,56451232,3,15,yes,yes,no,no,yes,no,no,yes
+357,Julie & Julia,2009,94125426,2,15,yes,no,no,no,yes,no,no,no
+358,Jumper,2008,80172128,3,15,yes,no,no,no,yes,no,no,no
+359,Jupiter Ascending,2015,47387723,11,15,yes,no,no,no,yes,yes,yes,no
+360,Jurassic World,2015,652270625,4,15,yes,no,no,no,yes,no,yes,no
+361,Justin Bieber: Never Say Never,2011,73013910,1,15,yes,no,no,no,no,no,no,no
+362,Keanu,2016,20566327,1,15,yes,no,no,no,no,no,no,no
+363,Kevin Hart: What Now?,2016,23564630,3,15,yes,no,no,no,yes,yes,no,no
+364,Kick-Ass,2010,48071303,3,15,yes,no,no,no,yes,no,no,no
+365,Kick-Ass 2,2013,28795985,3,15,yes,no,no,no,yes,no,no,no
+366,Killers,2010,47059963,2,15,yes,no,no,no,no,no,no,no
+367,King Arthur: Legend of the Sword,2017,39175066,9,15,no,no,yes,no,yes,yes,no,no
+368,Knight and Day,2010,76423035,4,15,yes,no,no,no,yes,no,no,no
+369,Knowing,2009,79957634,7,15,yes,no,yes,no,no,no,no,no
+370,Kong: Skull Island,2017,168052812,2,15,yes,no,no,no,yes,no,no,no
+371,Krampus,2015,42592530,3,15,yes,no,yes,no,yes,no,no,no
+372,Kubo and the Two Strings,2016,48023088,4,15,yes,no,no,no,yes,yes,yes,no
+373,Kung Fu Panda,2008,215434591,3,15,yes,no,no,no,yes,no,yes,no
+374,Lakeview Terrace,2008,39263506,1,15,yes,no,no,no,no,no,yes,no
+375,Land of the Lost,2009,49438370,1,15,yes,no,no,no,yes,no,no,no
+376,Last Vegas,2013,63914167,2,15,yes,no,no,no,no,no,no,no
+377,Law Abiding Citizen,2009,73343413,2,15,yes,no,no,no,yes,no,no,no
+378,Lawless,2012,37400127,6,15,yes,no,yes,no,yes,no,no,no
+379,Leap Year,2010,25918920,5,15,yes,no,no,no,yes,no,no,no
+380,Legend of the Guardians: The Owls of Ga'Hoole,2010,55675313,14,15,no,no,yes,no,yes,no,no,no
+381,Legends of Oz: Dorothy's Return,2013,8462027,7,15,yes,yes,no,no,yes,no,no,no
+382,Legion,2010,40168080,2,15,yes,no,no,no,yes,no,no,no
+383,Let's Be Cops,2014,82390774,5,15,yes,no,no,no,yes,no,no,yes
+384,Letters to Juliet,2010,53032453,9,15,yes,no,yes,no,yes,no,no,no
+385,Life,2017,30180466,6,15,yes,no,no,no,yes,no,yes,no
+386,Lights Out,2016,67235683,3,14,yes,no,yes,no,yes,no,no,no
+387,Limitless,2011,79249455,3,15,yes,no,yes,no,yes,no,no,no
+388,Lion,2016,51694854,5,15,no,no,yes,no,yes,no,yes,no
+389,Little Boy,2015,6420319,5,15,yes,no,no,no,yes,no,yes,no
+390,Logan,2017,226277068,5,15,yes,no,yes,no,yes,yes,no,no
+391,Logan Lucky,2017,7600036,2,15,yes,no,no,no,yes,no,no,no
+392,London Has Fallen,2016,62524260,7,15,yes,no,yes,no,yes,no,no,no
+393,Looper,2012,66486205,3,15,yes,no,no,no,yes,no,yes,no
+394,Love & Other Drugs,2010,32367005,2,15,yes,no,no,no,no,no,no,no
+395,Love Happens,2009,22927390,5,15,yes,yes,no,no,yes,no,no,no
+396,MacGruber,2010,8460995,1,15,yes,no,no,no,yes,no,no,no
+397,Machete Kills,2013,8008161,3,15,yes,no,no,no,no,no,no,yes
+398,Mad Money,2008,20668843,1,15,yes,yes,no,no,no,no,no,no
+399,Madagascar 3: Europe's Most Wanted,2012,216391482,3,15,yes,no,no,no,yes,no,no,no
+400,Madagascar: Escape 2 Africa,2008,180010950,2,15,yes,no,no,no,yes,no,no,no
+401,Made of Honor,2008,46012734,1,15,yes,no,no,no,yes,no,no,no
+402,Madea Goes to Jail,2009,90485233,1,15,yes,no,no,no,no,no,no,yes
+403,Madea's Witness Protection,2012,65653242,2,15,yes,no,no,no,no,no,no,no
+404,Magic Mike XXL,2015,66013057,1,15,yes,no,no,no,no,no,no,yes
+405,Maleficent,2014,241410378,9,15,yes,no,yes,no,yes,yes,no,no
+406,Man of Steel,2013,291045518,5,15,yes,no,yes,no,yes,no,no,no
+407,Marmaduke,2010,33644788,2,15,yes,no,no,no,yes,no,no,no
+408,Mars Needs Moms,2011,21379315,1,15,yes,no,no,no,yes,no,no,no
+409,Max,2015,42652003,2,15,yes,no,no,no,yes,no,no,no
+410,Max Payne,2008,40689393,8,15,yes,no,no,no,yes,no,no,no
+411,Maze Runner: The Scorch Trials,2015,81670090,5,15,yes,no,no,no,yes,no,no,no
+412,Me and Earl and the Dying Girl,2015,6743776,1,15,yes,no,no,no,yes,no,no,no
+413,Me Before You,2016,56245075,9,15,no,no,no,no,yes,no,no,no
+414,Mechanic: Resurrection,2016,21203260,5,15,yes,no,no,no,yes,no,yes,no
+415,Meet the Blacks,2016,9093856,2,16,yes,no,no,no,no,no,no,yes
+416,Meet the Browns,2008,41939392,2,15,yes,no,no,no,no,no,no,yes
+417,Meet the Mormons,2014,5876812,1,7,yes,no,no,no,no,no,yes,no
+418,Meet the Spartans,2008,38233676,2,15,yes,no,no,no,yes,no,no,no
+419,Megan Leavey,2017,12705458,3,15,yes,no,no,no,yes,no,no,no
+420,Michael Clayton,2007,49033882,3,15,yes,no,no,no,yes,no,no,no
+421,Midnight in Paris,2011,56816662,8,15,yes,no,no,no,yes,no,no,no
+422,Mike and Dave Need Wedding Dates,2016,46007113,2,15,yes,no,no,yes,no,no,no,no
+423,Milk,2008,31841299,4,15,yes,no,no,no,yes,no,no,no
+424,Million Dollar Arm,2014,36447959,6,15,yes,no,no,no,no,no,yes,no
+425,Minions,2015,336045770,5,15,yes,no,yes,no,yes,no,yes,no
+426,Miracles from Heaven,2016,61693523,2,15,yes,no,yes,no,no,no,no,no
+427,Mirror Mirror,2012,64935167,4,15,yes,no,no,no,yes,no,no,no
+428,Mirrors,2008,30691439,4,15,yes,no,no,no,yes,no,no,no
+429,Miss Peregrine's Home for Peculiar Children,2016,87242834,11,15,yes,no,no,no,yes,no,no,no
+430,Mission: Impossible - Ghost Protocol,2011,209397903,10,15,yes,no,no,no,yes,no,yes,no
+431,Mission: Impossible - Rogue Nation,2015,195042377,9,15,yes,no,no,no,yes,no,yes,no
+432,Moana,2016,248757044,3,11,yes,no,yes,no,no,no,no,no
+433,Money Monster,2016,41012075,4,15,yes,no,no,no,yes,no,no,no
+434,Moneyball,2011,75605492,1,15,yes,no,no,no,yes,no,no,no
+435,Monster Trucks,2016,33370166,3,15,yes,no,yes,no,yes,no,no,no
+436,Monsters University,2013,268492764,5,15,yes,no,no,no,yes,no,no,no
+437,Monsters vs. Aliens,2009,198351526,4,15,yes,no,no,no,yes,no,no,no
+438,Monte Carlo,2011,23186769,4,15,yes,no,no,no,yes,no,no,no
+439,Moonlight,2016,27850912,1,15,yes,no,no,no,yes,no,no,no
+440,Moonrise Kingdom,2012,45512466,2,15,yes,no,no,no,yes,no,no,no
+441,Morning Glory,2010,31011732,1,15,yes,no,no,no,no,no,no,no
+442,Mortdecai,2015,7605668,7,15,yes,no,no,no,yes,yes,no,no
+443,Mother's Day,2016,32463917,2,15,yes,no,no,no,yes,no,no,no
+444,Movie 43,2013,8828771,4,15,yes,no,yes,no,yes,no,no,no
+445,Mr. Bean's Holiday,2007,33302167,10,15,yes,no,no,no,yes,no,no,no
+446,Mr. Magorium's Wonder Emporium,2007,32061555,4,15,yes,no,no,no,yes,no,no,no
+447,Mr. Popper's Penguins,2011,68224452,4,15,yes,no,no,no,yes,no,no,no
+448,Much Ado About Nothing,2012,4327763,1,15,yes,no,no,no,no,no,no,no
+449,Muppets Most Wanted,2014,51183113,4,15,yes,no,yes,no,yes,no,no,yes
+450,Music and Lyrics,2007,50572589,2,15,yes,no,no,no,yes,no,yes,no
+451,My Big Fat Greek Wedding 2,2016,59573085,5,15,yes,no,yes,no,yes,no,no,no
+452,My Bloody Valentine,2009,51545952,1,15,yes,no,no,no,no,yes,no,no
+453,My Cousin Rachel,2017,2676077,9,15,no,no,no,no,yes,no,yes,no
+454,Nancy Drew,2007,25612520,1,15,yes,no,no,no,no,no,no,no
+455,Nanny McPhee Returns,2010,29197642,12,15,yes,no,no,no,yes,no,no,no
+456,National Treasure: Book of Secrets,2007,219964115,4,15,yes,no,no,no,yes,no,no,no
+457,Need for Speed,2014,43577636,2,15,yes,no,no,no,yes,no,no,no
+458,Neighbors 2: Sorority Rising,2016,55291815,2,15,yes,no,yes,no,no,no,no,no
+459,Never Back Down,2008,24850922,2,15,yes,no,no,no,no,yes,no,no
+460,New Year's Eve,2011,54544638,1,15,yes,no,no,no,yes,no,no,no
+461,Next,2007,18211013,4,15,yes,no,no,no,yes,no,no,yes
+462,Nick and Norah's Infinite Playlist,2008,31487293,3,15,yes,no,no,no,yes,no,no,no
+463,Nightcrawler,2014,32381218,1,15,yes,no,no,no,no,no,yes,no
+464,Nights in Rodanthe,2008,41850659,2,15,yes,no,no,no,no,no,no,no
+465,Nim's Island,2008,48006503,2,15,yes,no,yes,no,yes,no,no,no
+466,Nine,2009,19664021,12,15,yes,no,no,no,yes,no,no,no
+467,Ninja Assassin,2009,38105077,9,15,yes,no,no,no,yes,no,yes,no
+468,No Country for Old Men,2007,74283625,2,15,yes,no,no,no,yes,no,no,no
+469,No Escape,2015,27285953,1,15,yes,no,no,no,yes,no,no,no
+470,No Good Deed,2014,52543632,3,15,yes,no,no,no,yes,no,no,no
+471,No Reservations,2007,43107979,3,15,yes,no,no,no,yes,no,no,no
+472,No Strings Attached,2011,70662220,6,15,yes,no,yes,no,yes,no,yes,no
+473,Non-Stop,2014,92168600,4,15,yes,no,no,no,yes,no,no,no
+474,Norbit,2007,95673607,1,15,yes,no,no,no,yes,no,no,no
+475,Notorious,2009,36842118,2,15,yes,no,no,yes,no,no,no,yes
+476,Now You See Me 2,2016,65075540,5,15,yes,no,no,no,yes,no,yes,no
+477,Oblivion,2013,89021735,3,10,yes,no,yes,no,yes,no,no,no
+478,Observe and Report,2009,23993605,1,15,yes,no,no,no,no,no,no,no
+479,Obsessed,2009,68261644,1,15,yes,no,no,no,yes,no,no,no
+480,Oceans,2009,19422319,7,8,yes,no,no,no,yes,no,yes,no
+481,Oculus,2013,27695246,2,15,yes,no,yes,no,yes,no,no,no
+482,Office Christmas Party,2016,54730514,1,15,yes,no,yes,no,no,no,no,no
+483,Olympus Has Fallen,2013,98925640,2,15,yes,no,yes,no,yes,no,no,no
+484,One Direction: This Is Us,2013,28873374,5,9,no,no,no,no,yes,no,no,no
+485,One for the Money,2012,26414527,2,15,yes,no,no,no,yes,no,no,yes
+486,One Missed Call,2008,26876529,1,15,yes,no,no,no,no,no,no,no
+487,Orphan,2009,41596251,8,15,yes,no,no,no,yes,no,no,no
+488,Ouija,2014,50856010,3,15,yes,no,no,no,yes,no,no,no
+489,Ouija: Origin of Evil,2016,34904885,2,15,yes,no,no,no,yes,no,no,no
+490,Our Brand Is Crisis,2015,6998324,1,15,yes,no,no,no,yes,no,no,no
+491,Our Idiot Brother,2011,24814830,2,15,yes,no,no,no,yes,no,no,no
+492,Oz the Great and Powerful,2013,234911825,3,15,yes,no,no,no,yes,no,no,no
+493,P.S. I Love You,2007,53695808,3,15,yes,no,no,no,yes,no,no,no
+494,Paddington,2014,76223578,13,15,no,no,no,no,yes,no,no,no
+495,Pague Um & Leve Todos,2009,19652919,1,1,no,no,no,no,no,no,no,yes
+496,Pain & Gain,2013,49875291,3,15,yes,no,yes,no,no,no,yes,yes
+497,Pan,2015,35088320,9,15,yes,no,yes,no,yes,no,no,no
+498,Paper Towns,2015,32000304,1,15,yes,no,no,no,yes,no,no,no
+499,Paranoia,2013,7376027,4,15,yes,no,yes,no,yes,no,no,no
+500,Paranormal Activity 4,2012,53921300,1,15,yes,no,no,no,yes,no,no,no
+501,Paranormal Activity: The Ghost Dimension,2015,18300124,1,13,yes,no,no,no,no,no,no,no
+502,Paranormal Activity: The Marked Ones,2014,32462372,1,15,yes,no,no,no,no,no,no,no
+503,ParaNorman,2012,56003051,3,15,yes,no,yes,no,yes,no,no,no
+504,Patriots Day,2016,31886361,2,15,yes,no,no,no,yes,no,yes,no
+505,Paul,2011,37412945,4,15,yes,no,no,no,yes,no,no,yes
+506,Paul Blart: Mall Cop,2009,20819129,3,15,yes,no,yes,no,no,yes,yes,no
+507,Paul Blart: Mall Cop 2,2015,71038190,3,15,yes,yes,no,no,yes,no,no,no
+508,Penguins of Madagascar,2014,83348920,4,15,yes,no,no,yes,yes,no,no,no
+509,Percy Jackson & the Olympians: The Lightning Thief,2010,88761720,5,15,yes,no,no,no,yes,no,no,no
+510,Percy Jackson: Sea of Monsters,2013,68559554,5,15,yes,no,no,no,yes,no,no,no
+511,Perfect Stranger,2007,23984949,2,15,yes,no,no,no,yes,no,no,no
+512,Pete's Dragon,2016,76204454,1,15,yes,no,yes,no,no,no,no,no
+513,Philomena,2013,37707719,8,15,yes,no,no,no,yes,yes,no,no
+514,Phoenix Forgotten,2017,3599570,2,15,yes,no,no,no,yes,no,no,no
+515,Pineapple Express,2008,87341380,1,15,yes,no,no,no,no,no,no,no
+516,Piranha 3D,2010,25003155,2,15,yes,no,no,no,yes,no,no,no
+517,Pirates of the Caribbean: At World's End,2007,309420425,11,15,yes,no,yes,no,yes,yes,no,no
+518,Pirates of the Caribbean: Dead Men Tell No Tales,2017,171832628,12,15,yes,no,yes,yes,yes,no,no,no
+519,Pirates of the Caribbean: On Stranger Tides,2011,241071802,14,15,yes,no,yes,no,yes,no,no,no
+520,Pitch Perfect,2012,65001093,1,15,yes,no,yes,no,no,no,no,no
+521,Pitch Perfect 2,2015,184296230,1,15,yes,no,yes,no,no,no,no,no
+522,Pixels,2015,78747585,3,15,yes,no,no,no,yes,no,no,no
+523,Planes,2013,90288712,2,15,yes,no,no,no,yes,no,yes,no
+524,Planet 51,2009,42086887,8,15,yes,no,no,no,yes,no,no,no
+525,Point Break,2015,28782481,8,15,yes,no,yes,no,yes,yes,no,yes
+526,Poltergeist,2015,47425125,2,15,yes,no,no,no,yes,no,no,no
+527,Pompeii,2014,23219748,10,15,yes,no,yes,no,yes,no,no,no
+528,Popstar: Never Stop Never Stopping,2016,9393835,2,15,yes,no,no,no,yes,no,no,no
+529,Power Rangers,2017,85067486,5,15,yes,no,yes,no,yes,no,yes,no
+530,Predators,2010,52000688,2,12,yes,no,no,no,no,no,yes,yes
+531,Premium Rush,2012,20275446,2,15,yes,no,no,no,no,no,yes,yes
+532,Premonition,2007,47852604,3,15,yes,no,yes,no,yes,no,no,no
+533,Priest,2011,29136626,6,15,yes,no,yes,no,yes,no,no,no
+534,Prince of Persia: The Sands of Time,2010,90759676,9,14,yes,no,no,no,yes,no,no,no
+535,Prisoners,2013,61002302,2,15,yes,no,yes,no,no,no,no,no
+536,Project Almanac,2015,22331028,1,15,yes,no,no,no,yes,no,no,no
+537,Prom Night,2008,43869350,3,15,yes,no,no,no,yes,no,yes,no
+538,Public Enemies,2009,97104620,5,15,yes,no,yes,no,yes,no,no,no
+539,Push,2009,31806100,5,15,yes,no,no,no,yes,yes,yes,no
+540,Quantum of Solace,2008,168368427,13,15,yes,no,no,no,yes,no,no,no
+541,Quarantine,2008,31691811,4,15,yes,no,no,no,yes,yes,no,yes
+542,Queen of Katwe,2016,8805918,2,15,yes,no,no,no,yes,no,no,no
+543,R.I.P.D.,2013,33618855,1,15,yes,no,no,no,no,no,no,no
+544,Race to Witch Mountain,2009,67172594,2,15,yes,no,no,no,yes,no,no,no
+545,Rambo,2008,42754105,3,15,yes,no,no,no,yes,no,no,no
+546,Ramona and Beezus,2010,26161406,4,15,yes,no,no,no,yes,no,no,no
+547,Ratatouille,2007,206445654,3,15,yes,no,no,no,yes,no,no,no
+548,Ratchet & Clank,2016,8549740,4,15,yes,no,no,no,yes,no,no,no
+549,Real Steel,2011,85468508,5,15,yes,no,yes,no,no,no,yes,no
+550,RED,2010,90380162,5,15,yes,no,yes,no,yes,no,no,no
+551,RED 2,2013,53262560,9,15,yes,no,no,no,yes,no,yes,no
+552,Red Dawn,2012,44806783,3,15,yes,no,yes,no,no,no,yes,no
+553,Red Riding Hood,2011,37662162,8,15,yes,no,no,no,yes,no,yes,no
+554,Red Tails,2012,49876377,1,15,yes,no,no,no,yes,no,no,no
+555,Reign Over Me,2007,19661987,2,15,yes,no,no,no,yes,no,no,no
+556,Rendition,2007,9736045,3,15,yes,no,no,yes,yes,no,no,no
+557,Reno 911!: Miami,2007,20342161,1,15,yes,no,no,no,no,no,no,yes
+558,Resident Evil: Afterlife,2010,60128566,11,15,yes,no,no,no,yes,yes,yes,no
+559,Resident Evil: Extinction,2007,50648679,6,15,yes,no,yes,no,yes,no,no,no
+560,Resident Evil: Retribution,2012,42345531,10,15,yes,no,no,no,yes,no,yes,no
+561,Resident Evil: The Final Chapter,2016,26830068,7,15,yes,no,yes,no,yes,no,yes,yes
+562,Revolutionary Road,2008,22911480,2,15,yes,no,no,no,yes,no,no,no
+563,Ricki and the Flash,2015,26822144,1,15,yes,no,yes,no,no,no,no,no
+564,Riddick,2013,42025135,6,15,yes,no,yes,no,yes,no,no,no
+565,Righteous Kill,2008,40081410,1,15,yes,no,no,no,no,no,yes,no
+566,Rings,2017,27780085,4,15,yes,no,no,no,yes,no,no,no
+567,Risen,2016,36874745,9,15,no,no,yes,no,yes,no,no,yes
+568,RoboCop,2014,58607007,5,15,yes,no,yes,no,yes,no,no,no
+569,Rock Dog,2016,9404922,1,15,yes,no,no,no,no,yes,no,no
+570,Rock of Ages,2012,38518613,3,15,yes,no,no,no,yes,no,no,no
+571,Rogue One,2016,532177324,11,15,yes,no,yes,no,yes,no,yes,no
+572,Run All Night,2015,26442251,3,15,yes,no,yes,no,yes,no,no,no
+573,Rush,2013,26947624,11,15,yes,no,yes,no,yes,no,no,no
+574,Safe Haven,2013,71349120,2,15,yes,no,yes,no,no,no,no,yes
+575,Same Kind of Different as Me,2017,3524285,2,15,yes,no,no,no,no,yes,no,no
+576,Sanctum,2011,23070045,5,13,yes,no,yes,no,yes,no,no,no
+577,Sausage Party,2016,97661826,9,15,yes,no,no,no,yes,no,no,no
+578,Savages,2012,47382068,6,15,yes,no,no,no,yes,yes,no,no
+579,Saving Mr. Banks,2013,83301580,6,15,yes,no,yes,no,yes,no,no,no
+580,Saw 3D: The Final Chapter,2010,45710178,7,15,yes,no,no,no,yes,no,no,no
+581,Saw IV,2007,63300095,7,15,yes,no,no,yes,yes,no,no,no
+582,Saw V,2008,56746769,4,15,yes,no,no,no,yes,no,no,no
+583,Saw VI,2009,27669413,4,15,yes,no,no,no,no,no,no,no
+584,Scott Pilgrim vs. the World,2010,31494270,4,15,yes,no,no,no,no,no,no,no
+585,Scream 4,2011,38180928,3,15,yes,no,no,no,no,no,no,no
+586,Season of the Witch,2011,24827228,8,15,yes,no,no,no,yes,no,no,no
+587,Secret in Their Eyes,2015,20180155,2,15,yes,no,no,no,yes,no,no,no
+588,Seeking a Friend for the End of the World,2012,6619173,3,15,yes,no,yes,no,yes,no,no,no
+589,Selma,2014,52076908,3,15,yes,no,no,no,yes,no,no,no
+590,Semi-Pro,2008,33472850,1,16,yes,no,no,no,no,no,no,no
+591,Seven Pounds,2008,69951824,2,15,yes,no,no,no,no,no,no,no
+592,Sex and the City,2008,152647258,2,15,yes,no,no,no,yes,no,no,no
+593,Sex and the City 2,2010,95347692,2,15,yes,no,no,no,yes,no,no,no
+594,She's Out of My League,2010,31584722,3,15,yes,no,no,no,yes,no,no,no
+595,Sherlock Holmes,2009,209028679,12,15,yes,no,no,no,yes,no,no,no
+596,Sherlock Holmes: A Game of Shadows,2011,186848418,9,15,yes,no,no,no,yes,no,no,no
+597,Shooter,2007,47003582,6,15,yes,no,no,no,yes,no,no,no
+598,Shorts,2009,20916309,1,15,yes,no,no,no,no,no,yes,no
+599,Shrek Forever After,2010,238371987,3,15,yes,no,no,no,yes,no,no,no
+600,Shrek the Third,2007,320706665,7,15,yes,no,no,no,yes,no,no,no
+601,Shutter,2008,25926543,9,15,yes,no,yes,no,no,no,yes,no
+602,Sicario,2015,46889293,4,15,yes,no,no,no,yes,no,no,no
+603,Sicko,2007,24540079,2,14,yes,no,no,no,yes,no,no,yes
+604,Side Effects,2013,32172757,3,15,yes,no,no,no,yes,no,no,no
+605,Sing,2016,270329045,4,15,yes,no,no,no,yes,no,no,no
+606,Sinister,2012,48086903,1,15,yes,no,no,no,yes,no,no,no
+607,Sisters,2015,87044645,1,15,yes,no,no,no,no,no,no,no
+608,Skyfall,2012,304360277,11,15,no,no,no,no,yes,yes,no,no
+609,Sleepless,2017,20757977,1,15,yes,no,yes,no,no,no,no,no
+610,Snitch,2013,42930462,2,15,yes,no,no,no,yes,no,no,no
+611,Snowden,2016,21587519,3,15,yes,no,no,no,yes,no,no,no
+612,Son of God,2014,59700064,13,15,no,no,no,no,yes,no,no,no
+613,Song to Song,2017,443684,6,15,yes,no,yes,no,yes,no,no,no
+614,Source Code,2011,54712227,2,15,yes,no,no,no,no,no,no,no
+615,Southpaw,2015,52421953,4,15,yes,yes,no,no,yes,no,no,no
+616,Sparkle,2012,24397469,1,15,yes,no,no,no,yes,no,no,no
+617,Spectre,2015,200074175,10,15,yes,no,no,no,yes,no,no,no
+618,Speed Racer,2008,43945766,4,15,yes,no,yes,no,yes,no,yes,no
+619,Spider-Man 3,2007,336530303,1,15,yes,no,no,no,yes,no,no,no
+620,Spider-Man: Homecoming,2017,314057748,2,15,yes,no,no,no,yes,yes,no,no
+621,Spotlight,2015,45055776,1,15,yes,no,no,no,no,no,no,no
+622,Spy Kids: All the Time in the World in 4D,2011,38538188,2,15,yes,no,no,no,yes,no,no,no
+623,St. Vincent,2014,44134898,2,15,yes,no,no,no,yes,no,no,no
+624,Star Trek,2009,257730019,8,15,yes,no,yes,no,yes,no,yes,no
+625,Star Trek: Into Darkness,2013,228778661,9,15,yes,no,yes,no,yes,no,yes,no
+626,Star Wars: The Clone Wars,2008,35161554,3,15,yes,no,no,no,yes,no,no,no
+627,Star Wars: The Force Awakens,2015,936662225,10,15,yes,no,no,no,yes,no,no,yes
+628,Stardust,2007,38634938,10,15,yes,no,no,no,yes,no,no,no
+629,State of Play,2009,37017955,3,15,yes,no,yes,no,yes,no,no,no
+630,Step Up 2: The Streets,2008,58017783,1,15,yes,no,no,no,no,no,yes,no
+631,Step Up 3D,2010,42400223,2,15,yes,no,yes,no,no,no,no,yes
+632,Step Up Revolution,2012,35074677,1,15,yes,no,yes,no,no,no,no,no
+633,Storks,2016,72679278,2,15,yes,yes,no,no,no,no,no,no
+634,Street Kings,2008,26415649,5,15,yes,no,no,yes,yes,no,no,no
+635,Sucker Punch,2011,36392502,4,15,yes,no,yes,no,yes,no,no,yes
+636,Suicide Squad,2016,325100054,5,15,yes,no,yes,no,yes,yes,no,no
+637,Superhero Movie,2008,26638520,2,15,yes,no,no,no,no,no,no,no
+638,Surf's Up,2007,58867694,1,15,yes,no,yes,no,no,no,no,no
+639,Surrogates,2009,38577772,5,15,yes,no,yes,no,yes,no,no,no
+640,Sweeney Todd: The Demon Barber of Fleet Street,2007,52898073,8,15,yes,no,no,no,yes,no,no,no
+641,Table 19,2017,3606977,2,15,yes,no,no,no,yes,no,no,no
+642,Taken 3,2014,89256424,5,15,yes,no,no,no,yes,no,no,no
+643,Takers,2010,57744720,5,15,yes,no,no,no,yes,no,no,yes
+644,Tammy,2014,84525432,3,15,yes,no,yes,no,no,no,no,no
+645,Ted,2012,218815487,3,15,yes,no,no,no,yes,no,no,no
+646,Ted 2,2015,81476385,1,15,yes,no,no,no,yes,no,no,no
+647,Teenage Mutant Ninja Turtles,2014,191204754,2,15,yes,no,no,no,no,no,no,no
+648,Teenage Mutant Ninja Turtles: Out of the Shadows,2016,82051601,5,15,yes,no,no,no,yes,no,no,no
+649,Terminator Genisys,2015,89760956,8,15,yes,no,yes,no,yes,yes,yes,no
+650,Texas Chainsaw 3D,2013,34341945,3,15,yes,no,no,no,yes,no,no,no
+651,That Awkward Moment,2014,26049082,3,15,yes,no,no,no,yes,no,no,no
+652,The A-Team,2010,77222099,5,15,yes,no,no,no,yes,yes,no,no
+653,The Accountant,2016,86198014,2,15,yes,no,no,no,yes,no,no,no
+654,The Adjustment Bureau,2011,62495645,1,15,yes,no,no,no,yes,no,no,no
+655,The Adventures of Tintin,2011,77591831,13,15,no,no,no,yes,yes,no,no,no
+656,The Age of Adaline,2015,42478175,8,15,yes,no,no,no,yes,no,yes,no
+657,The Amazing Spider-Man,2012,262030663,2,15,yes,no,no,no,yes,no,yes,no
+658,The Amazing Spider-Man 2,2014,202853933,3,15,yes,no,yes,no,yes,no,no,no
+659,The American,2010,35606376,9,15,yes,no,no,no,yes,no,no,no
+660,The Apparition,2012,4930798,3,9,yes,no,no,no,yes,no,no,no
+661,The Artist,2011,44671682,3,15,yes,no,no,no,yes,no,no,yes
+662,The Avengers,2012,623357910,4,15,yes,no,yes,no,yes,no,no,no
+663,The Back-up Plan,2010,37490007,1,15,yes,no,yes,no,no,no,no,no
+664,The Bank Job,2008,30028592,13,15,no,no,no,no,yes,yes,no,no
+665,The Best Exotic Marigold Hotel,2011,46412041,11,15,no,no,no,no,yes,no,no,no
+666,The Best Man Holiday,2013,70525195,1,15,yes,no,no,no,no,no,no,no
+667,The Best of Me,2014,26761283,1,15,yes,no,no,no,yes,no,no,no
+668,The BFG,2016,55483770,10,15,yes,no,yes,no,yes,no,no,no
+669,The Big Short,2015,70259870,2,15,yes,no,no,no,yes,no,no,no
+670,The Big Sick,2017,38151532,2,15,yes,no,no,yes,no,no,yes,no
+671,The Big Wedding,2013,21784432,1,15,yes,no,no,no,yes,no,no,no
+672,The Black Prince,2017,285000,5,15,no,no,no,no,yes,no,yes,no
+673,The Blind Side,2009,255959475,1,15,yes,no,no,no,yes,no,no,no
+674,The Bling Ring,2013,5841046,2,15,yes,no,no,no,yes,no,no,no
+675,The Book of Eli,2010,94835059,5,15,yes,no,no,no,yes,no,no,no
+676,The Book of Henry,2017,4219536,4,15,yes,no,no,no,yes,no,no,yes
+677,The Book of Life,2014,50151543,4,15,yes,no,no,no,yes,no,no,no
+678,The Book Thief,2013,21488481,9,15,yes,no,yes,no,yes,no,no,no
+679,The Boss,2016,63034755,1,15,yes,no,no,no,no,no,no,no
+680,The Bounty Hunter,2010,67061228,1,15,yes,no,no,no,yes,no,no,no
+681,The Bourne Ultimatum,2007,227471070,7,15,yes,no,no,no,yes,no,no,yes
+682,The Boxtrolls,2014,50837305,6,15,yes,no,no,no,yes,no,no,no
+683,The Boy,2016,35794166,3,10,yes,no,no,no,yes,no,no,no
+684,The Boy Next Door,2015,35385560,1,15,yes,no,no,no,no,no,yes,no
+685,The Brave One,2007,36793804,1,15,yes,no,no,no,yes,no,no,no
+686,The Bucket List,2007,93466502,1,15,yes,no,no,no,yes,no,no,no
+687,The Bye Bye Man,2017,22377458,4,15,yes,no,yes,no,yes,no,no,no
+688,The Cabin in the Woods,2012,42073277,5,15,yes,no,yes,no,no,no,no,no
+689,The Call,2013,51872378,1,15,yes,no,no,no,no,no,no,no
+690,The Campaign,2012,86907746,3,15,yes,no,no,no,yes,no,no,no
+691,The Change-Up,2011,37081475,1,15,yes,no,no,no,no,no,no,no
+692,The Circle,2017,20476391,3,15,yes,no,no,no,yes,no,no,no
+693,The Collection,2012,6842058,1,15,yes,no,no,no,yes,no,no,no
+694,The Company You Keep,2012,5132442,2,15,yes,no,no,no,yes,no,yes,no
+695,The Crazies,2010,39123589,2,15,yes,no,yes,no,yes,no,no,no
+696,The Dark Knight,2008,534858444,7,15,yes,no,yes,no,yes,no,yes,no
+697,The Dark Knight Rises,2012,448139099,9,15,yes,no,yes,no,yes,no,no,no
+698,The Dark Tower,2017,41673047,5,15,yes,no,yes,no,yes,no,yes,no
+699,The Darkest Hour,2011,21426805,9,15,yes,no,yes,yes,yes,no,yes,no
+700,The Day the Earth Stood Still,2008,79366978,4,15,yes,no,no,yes,yes,no,no,no
+701,The Debt,2010,31177548,9,15,yes,no,yes,no,yes,no,no,no
+702,The Descendants,2011,82584160,1,15,yes,no,no,no,no,no,no,no
+703,The Devil Inside,2012,53261944,6,15,no,no,no,no,yes,no,no,yes
+704,The Dictator,2012,59650222,6,15,yes,no,no,no,yes,yes,yes,yes
+705,The DUFF,2015,34017854,2,15,yes,no,no,no,no,no,no,yes
+706,The Eagle,2011,19490041,9,15,yes,no,no,no,yes,no,no,no
+707,The Emoji Movie,2017,85194738,3,15,yes,no,no,no,yes,no,no,yes
+708,The Expendables 2,2012,85017401,8,15,yes,no,yes,no,yes,no,yes,no
+709,The Expendables 3,2014,39322544,3,15,yes,yes,no,no,yes,no,no,no
+710,The Eye,2008,31418697,3,15,yes,no,no,no,yes,no,yes,no
+711,The Family,2013,36918811,1,15,yes,no,no,no,yes,no,no,no
+712,The Family That Preys,2008,37019849,1,15,yes,no,no,no,yes,no,no,no
+713,The Fate of the Furious,2017,225764765,6,15,yes,no,no,no,yes,yes,no,no
+714,The Fighter,2010,93617009,3,15,yes,no,no,no,yes,no,no,no
+715,The Finest Hours,2016,27550735,3,15,yes,no,yes,no,yes,no,no,no
+716,The Five-Year Engagement,2012,28835528,6,15,yes,no,yes,no,yes,no,no,no
+717,The Forbidden Kingdom,2008,52075270,3,15,yes,no,no,no,no,no,yes,no
+718,The Forest,2016,26583369,2,15,yes,no,no,no,yes,no,yes,no
+719,The Fourth Kind,2009,25464480,6,15,yes,no,no,no,yes,yes,no,no
+720,The Gallows,2015,22757819,1,15,yes,no,no,no,yes,no,no,no
+721,The Game Plan,2007,93466502,1,15,yes,no,no,no,no,no,no,no
+722,The Gift,2015,43771291,3,15,yes,no,yes,no,yes,no,no,no
+723,The Girl on the Train,2016,75395035,5,15,yes,yes,no,no,yes,no,no,yes
+724,The Giver,2014,45089048,2,15,yes,no,yes,no,yes,no,no,no
+725,The Glass Castle,2017,9705840,2,15,yes,no,yes,no,yes,no,no,no
+726,The Golden Compass,2007,70107728,11,15,yes,no,no,no,yes,no,no,no
+727,The Grand Budapest Hotel,2014,59100318,6,15,yes,no,no,no,yes,no,no,no
+728,The Great Wall,2016,45157105,12,15,yes,no,no,no,yes,no,yes,yes
+729,The Green Hornet,2011,98780042,5,15,yes,no,no,no,yes,no,yes,no
+730,The Green Inferno,2013,7192291,5,15,yes,no,no,no,no,no,no,yes
+731,The Grey,2011,51580136,5,15,yes,no,no,no,yes,no,no,no
+732,The Guilt Trip,2012,37134215,2,15,yes,no,no,no,yes,no,no,no
+733,The Hangover,2009,277322503,1,15,yes,no,no,no,no,no,yes,no
+734,The Hangover Part II,2011,254464305,1,15,yes,no,no,no,no,no,yes,no
+735,The Happening,2008,64506874,1,15,yes,no,no,no,no,no,no,no
+736,The Hateful Eight,2015,54117416,3,15,yes,no,yes,no,yes,no,no,no
+737,The Haunting in Connecticut,2009,55389516,6,15,yes,no,no,no,no,no,no,no
+738,The Heartbreak Kid,2007,36787257,2,15,yes,no,no,no,no,no,no,yes
+739,The Hills Have Eyes II,2007,20804166,1,15,yes,no,no,no,no,no,no,no
+740,The Hitman's Bodyguard,2017,21384504,8,15,yes,no,no,no,yes,yes,yes,no
+741,The Hobbit: An Unexpected Journey,2012,303003568,10,15,no,no,yes,no,yes,no,no,no
+742,The Hobbit: The Battle of the Five Armies,2014,255119788,10,15,no,no,yes,no,yes,no,no,no
+743,The Hobbit: The Desolation of Smaug,2013,258366855,10,15,no,no,yes,no,yes,no,no,no
+744,The Host,2013,26627201,2,15,yes,no,no,no,yes,no,no,no
+745,The Hundred-Foot Journey,2014,54240821,8,15,yes,no,no,no,yes,no,yes,no
+746,The Hunger Games,2012,408010692,2,15,yes,no,yes,no,yes,no,no,no
+747,The Hunger Games: Catching Fire,2013,424668047,4,15,yes,no,yes,no,yes,no,no,yes
+748,The Hunger Games: Mockingjay - Part 1,2014,337135885,4,15,yes,no,yes,no,yes,no,no,no
+749,The Hunger Games: Mockingjay - Part 2,2015,281723902,4,15,yes,no,yes,no,yes,no,no,no
+750,The Huntsman: Winter's War,2016,47952020,10,15,yes,no,yes,no,yes,yes,no,no
+751,The Ides of March,2011,40962534,2,15,yes,no,no,no,yes,no,no,no
+752,The Imitation Game,2014,91125683,11,15,yes,no,no,no,yes,no,no,no
+753,The Impossible,2012,19019882,6,14,yes,no,no,no,yes,no,yes,no
+754,The Incredible Burt Wonderstone,2013,22525921,2,15,yes,no,no,no,yes,no,no,no
+755,The Informant!,2009,33313582,2,15,yes,no,yes,no,yes,no,no,no
+756,The International,2009,25450527,9,15,yes,no,no,no,yes,no,yes,no
+757,The Internship,2013,44672764,3,15,yes,no,yes,no,yes,no,yes,no
+758,The Interview,2014,6105175,4,15,yes,no,no,no,no,no,no,no
+759,The Invisible,2007,20568319,8,15,yes,no,yes,no,yes,no,yes,no
+760,The Jungle Book,2016,364001123,4,15,yes,no,no,no,yes,no,no,no
+761,The Kingdom,2007,47536778,4,15,yes,no,no,no,yes,no,no,no
+762,The Last House on the Left,2009,32721635,1,11,yes,no,no,no,no,no,no,no
+763,The Last Mimzy,2007,21471047,5,15,yes,no,no,no,yes,no,no,no
+764,The Last Song,2010,62950384,2,15,yes,no,yes,no,no,no,no,no
+765,The Last Witch Hunter,2015,27367660,8,15,yes,no,yes,no,yes,yes,no,no
+766,The Lazarus Effect,2015,25799043,2,13,yes,no,no,no,yes,no,no,no
+767,The LEGO Batman Movie,2017,175750384,4,15,yes,no,no,no,yes,yes,no,no
+768,The Lego Movie,2014,257760692,2,15,yes,no,no,no,yes,no,no,no
+769,The Lincoln Lawyer,2011,58009200,2,15,yes,no,no,no,yes,no,yes,no
+770,The Loft,2014,5981749,9,15,yes,no,yes,no,yes,no,yes,no
+771,The Lone Ranger,2013,89302115,7,15,yes,no,no,no,yes,no,no,no
+772,The Longest Ride,2015,37432299,3,15,yes,no,no,no,yes,no,no,no
+773,The Lorax,2012,214030500,1,15,yes,no,no,yes,no,no,no,no
+774,The Losers,2010,23580735,3,15,yes,no,no,yes,yes,no,no,no
+775,The Lost City of Z,2016,8574339,9,15,yes,no,yes,no,yes,no,no,no
+776,The Love Guru,2008,32235793,4,15,yes,yes,no,no,yes,no,no,no
+777,The Lovely Bones,2009,43818839,4,15,yes,no,yes,no,yes,no,no,no
+778,The Lovers,2017,2194521,3,11,yes,no,no,yes,yes,no,no,no
+779,The Magnificent Seven,2016,93381044,2,15,yes,no,no,no,no,no,yes,no
+780,The Man from U.N.C.L.E.,2015,45445109,9,15,yes,no,no,no,yes,no,yes,no
+781,The Man Who Knew Infinity,2015,3866794,9,15,no,yes,no,no,yes,no,no,no
+782,The Martian,2015,228433663,7,15,yes,no,no,no,yes,no,no,no
+783,The Mechanic,2011,29121498,2,15,yes,no,no,no,yes,no,no,no
+784,The Meddler,2015,4265673,2,15,yes,no,yes,no,yes,no,no,no
+785,The Men Who Stare at Goats,2009,32416109,2,15,yes,no,no,no,yes,no,no,no
+786,The Messengers,2007,35374833,6,15,yes,no,no,no,no,no,no,no
+787,The Mist,2007,25593755,2,15,yes,no,no,no,yes,no,no,no
+788,The Monuments Men,2014,78031620,8,15,yes,no,yes,no,yes,no,no,no
+789,The Mortal Instruments: City of Bones,2013,31165421,14,15,yes,yes,no,no,yes,no,yes,no
+790,The Mummy,2017,80101125,5,15,yes,no,yes,no,yes,yes,no,no
+791,The Muppets,2011,88631237,1,15,yes,no,no,no,yes,no,no,no
+792,The Nanny Diaries,2007,25925170,1,15,yes,no,no,no,yes,no,no,no
+793,The Nice Guys,2016,36261763,3,15,yes,no,yes,no,no,no,no,no
+794,The Night Before,2015,43035725,2,15,yes,no,no,no,no,no,no,no
+795,The November Man,2014,24984868,10,15,yes,no,yes,no,yes,no,no,no
+796,The Number 23,2007,35193167,4,15,yes,no,no,no,yes,no,no,no
+797,The Nut Job,2014,64251541,7,15,yes,no,no,no,yes,no,no,no
+798,The Nut Job 2: Nutty by Nature,2017,17675989,3,15,yes,no,no,no,no,no,yes,no
+799,The Odd Life of Timothy Green,2012,51853450,3,15,yes,no,yes,yes,yes,no,no,no
+800,The Only Living Boy in New York,2017,163145,3,15,yes,no,no,no,yes,no,no,no
+801,The Oscar Nominated Short Films 2017: Animation,2017,2833441,1,3,yes,no,no,no,no,no,no,no
+802,The Other Boleyn Girl,2008,26814957,11,15,yes,no,yes,no,yes,no,no,no
+803,The Other Woman,2014,83911193,1,15,yes,yes,no,no,no,no,no,no
+804,The Perfect Guy,2015,57017904,2,15,yes,no,no,no,no,no,no,no
+805,The Perfect Match,2016,9658370,1,15,yes,no,no,yes,no,no,no,no
+806,The Pink Panther 2,2009,35922978,10,15,yes,no,no,yes,yes,no,yes,yes
+807,The Pirates! Band of Misfits,2012,31051126,11,15,yes,no,no,no,yes,no,yes,no
+808,The Place Beyond the Pines,2012,21383298,4,15,yes,no,yes,no,yes,no,no,yes
+809,The Possession,2012,49130154,5,15,yes,no,no,no,no,no,no,no
+810,The Purge,2013,64473115,3,15,yes,yes,yes,no,no,no,no,no
+811,The Purge: Anarchy,2014,71962800,2,15,yes,no,no,no,yes,no,no,yes
+812,The Quiet Ones,2014,8496112,6,15,yes,no,no,no,yes,no,no,no
+813,The Reader,2008,34194407,13,15,no,no,no,no,yes,no,no,no
+814,The Reaping,2007,25117498,3,15,yes,no,no,no,yes,no,no,no
+815,The Revenant,2015,183637894,4,15,yes,no,no,no,yes,no,no,no
+816,The Rite,2011,33047633,10,15,yes,no,no,no,yes,no,no,yes
+817,The Roommate,2011,37300107,3,15,yes,no,no,no,yes,no,no,no
+818,The Second Best Exotic Marigold Hotel,2015,33078266,8,15,yes,no,no,no,yes,no,no,no
+819,The Secret Life of Bees,2008,37766350,2,15,yes,no,no,no,yes,no,no,no
+820,The Secret Life of Pets,2016,368384330,3,15,yes,no,no,no,yes,no,no,no
+821,The Shack,2017,57330873,8,15,yes,no,yes,no,yes,no,no,yes
+822,The Shallows,2016,55121623,1,12,yes,no,no,no,yes,no,no,no
+823,The Simpsons Movie,2007,183135014,2,15,yes,no,no,no,yes,no,no,no
+824,The Sisterhood of the Traveling Pants 2,2008,44087387,3,15,yes,no,no,yes,yes,no,no,yes
+825,The Sitter,2011,30538669,2,15,yes,no,no,no,no,no,no,yes
+826,The Smurfs 2,2013,71017784,6,15,yes,no,no,no,yes,no,no,no
+827,The Soloist,2009,31670931,3,15,yes,yes,no,no,yes,no,no,no
+828,The Sorcerer's Apprentice,2010,63150991,6,15,yes,no,yes,no,yes,yes,yes,no
+829,The Space Between Us,2017,7829766,5,15,yes,yes,no,no,yes,no,no,no
+830,The Spectacular Now,2013,6851969,2,15,yes,no,yes,no,no,yes,no,no
+831,The Spiderwick Chronicles,2008,71195053,7,15,yes,no,no,no,yes,no,no,no
+832,The Spy Next Door,2010,24268828,1,15,yes,no,no,no,no,no,yes,no
+833,The Strangers,2008,52597610,3,8,yes,no,yes,no,yes,no,yes,no
+834,The Switch,2010,27758465,2,15,yes,no,no,no,yes,no,no,no
+835,The Taking of Pelham 123,2009,65452312,2,15,yes,no,no,no,yes,no,no,no
+836,The Tale of Despereaux,2008,50877145,5,15,yes,no,no,no,yes,no,no,no
+837,The Theory of Everything,2014,35893537,8,15,no,no,no,no,yes,no,no,no
+838,The Three Musketeers,2011,20377913,9,15,yes,no,no,no,yes,no,no,no
+839,The Three Stooges,2012,44338224,3,15,yes,no,no,no,no,no,no,yes
+840,The Time Traveler's Wife,2009,63414846,8,15,yes,no,yes,no,no,no,no,no
+841,The Tourist,2010,67631157,10,15,yes,no,no,no,yes,no,no,no
+842,The Town,2010,92186262,2,15,yes,no,no,no,yes,no,no,no
+843,The Twilight Saga: Breaking Dawn - Part 1,2011,281287133,3,15,yes,no,no,no,yes,no,yes,no
+844,The Twilight Saga: Breaking Dawn - Part 2,2012,292298923,4,15,yes,no,no,no,yes,no,yes,no
+845,The Twilight Saga: Eclipse,2010,300531751,5,15,yes,no,yes,no,yes,no,yes,no
+846,The Twilight Saga: New Moon,2009,296623634,5,15,yes,no,no,no,yes,no,yes,no
+847,The Ugly Truth,2009,88915214,1,15,yes,no,no,no,yes,no,no,no
+848,The Unborn,2009,42670410,4,15,yes,no,no,no,yes,no,yes,no
+849,The Uninvited,2009,28573173,5,15,yes,no,yes,no,no,no,no,no
+850,The Visit,2015,65206105,3,13,yes,no,yes,no,yes,no,no,no
+851,The Visitor,2007,9422422,4,15,yes,no,no,yes,yes,no,no,no
+852,The VVitch: A New-England Folktale,2015,25138292,5,15,yes,no,no,no,yes,no,no,no
+853,The Watch,2012,35353000,1,15,yes,no,no,no,yes,no,no,no
+854,The Way,2010,4430650,7,15,yes,no,no,no,yes,no,no,no
+855,The Way Way Back,2013,21501098,2,15,yes,no,yes,no,no,no,no,no
+856,The Wolfman,2010,61979680,11,15,no,no,no,yes,yes,no,no,no
+857,The Woman in Black 2: Angel of Death,2014,26496583,6,15,no,no,no,no,yes,no,no,no
+858,The Women,2008,26902075,1,15,yes,no,no,no,no,no,no,no
+859,The World's End,2013,26004851,7,15,no,no,no,no,yes,no,no,no
+860,The X Files: I Want to Believe,2008,20981633,6,15,yes,no,no,no,yes,no,no,no
+861,The Zookeeper's Wife,2017,17445186,9,15,yes,no,no,no,yes,no,no,no
+862,There Will Be Blood,2007,40222514,1,15,yes,no,no,no,yes,no,no,no
+863,This Christmas,2007,49121934,2,15,yes,no,no,no,yes,no,no,no
+864,This Is 40,2012,67544505,1,15,yes,no,no,no,yes,no,no,no
+865,This Is Where I Leave You,2014,34290142,1,15,yes,no,yes,no,no,no,no,no
+866,This Means War,2012,54760791,8,15,yes,no,no,no,yes,no,no,no
+867,Thor,2011,181030624,8,15,yes,no,yes,no,yes,no,yes,no
+868,Thor: The Dark World,2013,206362140,10,15,yes,no,yes,no,yes,yes,yes,no
+869,TMNT,2007,54149098,3,15,yes,no,no,no,yes,no,yes,no
+870,Tomorrowland,2015,93436322,3,15,yes,no,no,no,yes,no,no,no
+871,Tooth Fairy,2010,60022256,7,15,yes,no,no,no,yes,no,no,no
+872,Total Recall,2012,58877969,8,15,yes,yes,no,no,yes,no,yes,no
+873,Traitor,2008,23530831,5,14,yes,no,no,yes,yes,no,no,no
+874,Transcendence,2014,23022309,5,15,yes,no,no,no,yes,no,yes,no
+875,Transformers,2007,319071806,3,15,yes,no,yes,no,no,no,no,no
+876,Transformers: Age of Extinction,2014,245439076,5,15,yes,yes,no,no,yes,no,yes,no
+877,Transformers: Dark of the Moon,2011,352390543,1,15,yes,no,no,no,yes,no,no,no
+878,Transformers: Revenge of the Fallen,2009,402111870,3,15,yes,no,yes,no,yes,no,no,no
+879,Transformers: The Last Knight,2017,130120862,4,15,yes,no,no,no,yes,no,no,yes
+880,Trouble with the Curve,2012,35763137,1,15,yes,no,no,no,yes,no,no,no
+881,yes Story,2015,4715819,1,15,yes,no,no,no,yes,no,no,no
+882,Trumbo,2015,7857741,2,15,yes,no,no,no,yes,no,no,no
+883,Turbo,2013,83028128,3,15,yes,no,no,no,yes,no,no,no
+884,Twilight,2008,191465414,1,15,yes,no,no,no,no,no,yes,no
+885,Under the Sea 3D,2009,35490823,1,1,yes,no,no,no,no,no,no,no
+886,Underdog,2007,43751706,2,15,yes,no,no,no,yes,no,no,no
+887,Underworld Awakening,2012,62321039,11,15,yes,no,no,yes,yes,no,no,no
+888,Underworld: Blood Wars,2016,30348260,10,15,yes,no,no,no,yes,no,no,no
+889,Underworld: Rise of the Lycans,2009,45802315,10,15,yes,no,yes,no,yes,no,no,no
+890,Unknown,2011,63686397,7,15,yes,no,no,no,yes,yes,no,no
+891,Unstoppable,2010,81562942,1,15,yes,no,no,no,no,no,no,no
+892,Untraceable,2008,28687835,1,15,yes,no,no,no,no,no,no,yes
+893,Up,2009,293004164,3,15,yes,no,no,no,yes,no,no,no
+894,Up in the Air,2009,83823381,2,15,yes,no,yes,no,yes,no,no,no
+895,Vacancy,2007,19363565,2,15,yes,no,no,no,yes,no,no,no
+896,Vacation,2015,58884188,1,15,yes,no,yes,no,no,no,no,no
+897,Valerian and the City of a Thousand Planets,2017,39272263,11,15,yes,yes,no,no,yes,yes,yes,no
+898,Valkyrie,2008,83077833,14,15,yes,no,no,no,yes,yes,no,no
+899,Vampire Academy,2014,7791146,5,15,yes,no,no,no,yes,no,yes,no
+900,Vampires Suck,2010,36661504,4,15,yes,no,no,no,yes,no,no,no
+901,Vantage Point,2008,72266306,5,14,yes,no,no,no,yes,no,yes,yes
+902,Vicky Cristina Barcelona,2008,23216709,5,15,yes,no,no,no,yes,no,no,no
+903,Victor Frankenstein,2015,5775076,11,15,no,no,no,no,yes,no,no,no
+904,W.,2008,25534493,2,15,yes,no,no,no,yes,no,no,no
+905,Waitress,2007,19067631,1,15,yes,no,no,no,no,no,no,no
+906,Walk Hard: The Dewey Cox Story,2007,18317151,1,15,yes,no,no,no,yes,no,no,no
+907,Walking with Dinosaurs 3D,2013,36076121,3,13,yes,no,yes,no,yes,no,no,no
+908,Wall Street: Money Never Sleeps,2010,52474616,2,15,yes,no,no,no,yes,no,no,no
+909,War,2007,22466994,9,15,yes,no,no,no,yes,no,yes,no
+910,War Dogs,2016,43017433,1,15,yes,no,no,no,no,no,no,yes
+911,War for the Planet of the Apes,2017,140958101,7,15,yes,no,no,no,yes,no,no,no
+912,War Horse,2011,79884879,14,15,no,no,no,no,yes,no,no,no
+913,War Room,2015,67790117,1,15,yes,no,no,no,no,yes,no,no
+914,Warcraft,2016,47365290,9,15,yes,no,yes,no,yes,yes,no,no
+915,Warm Bodies,2013,66380662,3,15,yes,no,yes,no,yes,no,no,no
+916,Water for Elephants,2011,58709717,4,15,yes,no,no,no,yes,no,no,no
+917,We Bought a Zoo,2011,75624550,1,15,yes,no,no,no,yes,no,no,no
+918,"We Love You, Sally Carmichael!",2017,81070,1,15,yes,no,no,no,yes,no,no,no
+919,We Own the Night,2007,28563179,6,15,yes,no,no,no,yes,no,yes,no
+920,"Welcome Home, Roscoe Jenkins",2008,42436517,1,15,yes,no,no,no,yes,no,no,no
+921,When in Rome,2010,32669555,4,15,yes,no,yes,no,yes,no,no,no
+922,When the Game Stands Tall,2014,30127963,2,15,yes,no,no,no,no,no,no,no
+923,Where the Wild Things Are,2009,77233467,2,15,yes,no,yes,no,no,no,no,no
+924,While We're Young,2014,7574066,1,15,yes,no,no,no,yes,no,no,no
+925,Whiskey Tango Foxtrot,2016,23049575,3,15,yes,no,yes,no,yes,no,no,no
+926,White House Down,2013,73103784,4,15,yes,no,yes,no,yes,no,no,no
+927,Why Did I Get Married Too?,2010,60095852,1,15,yes,no,no,no,no,no,yes,no
+928,Why Did I Get Married?,2007,55184721,1,15,yes,no,no,no,no,no,yes,no
+929,Wild,2014,37880356,1,15,yes,no,no,no,yes,no,no,no
+930,Wilson,2017,652997,1,15,yes,no,no,no,no,no,no,no
+931,Wind River,2017,4089001,3,15,yes,no,no,no,yes,no,no,no
+932,Winnie the Pooh,2011,26692846,2,12,yes,no,no,no,yes,no,no,no
+933,Won't Back Down,2012,5308553,2,15,yes,no,no,no,yes,no,no,yes
+934,Wonder Woman,2017,404000714,10,14,yes,no,no,no,yes,no,no,no
+935,World War Z,2013,202359711,7,15,yes,no,no,no,yes,yes,no,no
+936,Wrath of the Titans,2012,83670083,10,15,yes,no,no,no,yes,no,no,yes
+937,X-Men: Days of Future Past,2014,233921534,10,15,yes,no,yes,no,yes,no,yes,no
+938,xXx: Return of Xander Cage,2017,44898413,9,15,yes,no,yes,no,yes,no,yes,no
+939,Year One,2009,43337279,6,15,yes,no,yes,no,yes,no,no,yes
+940,Yes Man,2008,97690976,4,15,yes,no,yes,no,yes,no,no,no
+941,You Again,2010,25702053,1,15,yes,no,no,no,no,no,no,no
+942,Your Highness,2011,21596445,10,15,yes,no,no,no,yes,no,no,no
+943,Zack and Miri Make a Porno,2008,31457946,2,15,yes,no,no,no,no,no,no,no
+944,Zero Dark Thirty,2012,95720716,4,15,yes,no,yes,no,yes,no,no,no
+945,Zodiac,2007,33080084,2,15,yes,no,no,no,yes,no,no,no
+946,Zookeeper,2011,80360843,1,15,yes,no,no,no,yes,no,no,no
+947,Zoolander 2,2016,28848693,4,15,yes,no,no,no,yes,no,no,no
+948,Zootopia,2016,341268248,6,15,yes,no,no,no,yes,no,no,yes
