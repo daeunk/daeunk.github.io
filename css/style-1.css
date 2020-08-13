@@ -9,34 +9,41 @@ Sample CSS overwriting main.css rules
     4. components /.media .form
 [Colors]
     Black : #3d3d3d;
-    Color level 1 : #f5eadf;
+    Color level 1 : #EBE0C6;
     Color level 2 : #F1DECF;
     Color level 3 : #d8c1af;
 [Typography]
     font-family :
-    Geometric : "Glacial Indifference", "Montserrat"
+    Geometric : "Josefin Sans"
 */
 /* 0 General layout */
 /* 0 General layout */
 /* 0.1 Body */
+
+@font-face { font-family: Porcelain; src: url('../fonts/porcelain/Porcelain.ttf'); } 
+
 body,
 .body-page {
   background-color: #ffffff;
   color: #3d3d3d; }
 
 a {
-  color: #f5eadf; }
+  color: #EBE0C6; }
   a:hover {
     color: rgba(245, 234, 223, 0.8); }
 
 .bg-level-1 {
-  background-color: #f5eadf !important; }
+  background-color: #EBE0C6 !important; }
 
 .bg-level-2 {
-  background-color: #F1DECF !important; }
+  background-color: #EFE8D8 !important; }
 
 .bg-level-3 {
-  background-color: #d8c1af !important; }
+  background-color: #F8F4EC !important; }
+
+.bg-level-4 {
+  background-color: #C9CFEF !important;
+}
 
 .bg-secondary {
   background-color: #7e9ba3 !important; }
@@ -44,13 +51,31 @@ a {
 /* 1. Typography */
 /* page header */
 .page-header-alpha .navbar-mainmenu .nav-item {
-  font-family: "Glacial Indifference", "Montserrat", "Open Sans", sans-serif;
+  font-family: "Josefin Sans", "Open Sans", sans-serif;
   text-transform: none;
   letter-spacing: 0; }
 
 .section-title .title {
-  font-family: "Glacial Indifference", "Montserrat", "Open Sans", sans-serif;
+  font-family: "Josefin Sans", "Open Sans", sans-serif;
   text-transform: none; }
+
+.section-home.film-home {
+  min-height: 25vh;
+  min-height: 300px;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+}
+
+.video-row {
+  margin-bottom: 15px;
+}
+
+.about-row {
+  margin-bottom: 60px;
+}
 
 /* title */
 .display-title,
@@ -59,7 +84,11 @@ a {
 .media-service h4,
 .section-content h2,
 .section-content h3 {
-  font-family: "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+  font-family: "Josefin Sans", "Open Sans", sans-serif; }
+
+.artsy-title.display-title {
+  font-family: "Montserrat Alternates", "Open Sans", sans-serif;
+}
 
 /* small text */
 .page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item,
@@ -69,7 +98,7 @@ a {
 .display-subtitle,
 .display-condensed,
 .btn-divided .b-title {
-  font-family: "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+  font-family: "Porcelain", "Open Sans", sans-serif; }
 
 /* 2. page-header / .page-header */
 .page-header-drawer .navbar-sidebar .nav-item .icon {
@@ -84,13 +113,13 @@ a {
 
 /* nav */
 .page-header-alpha .navbar-mainmenu .nav-item a:hover {
-  color: #f5eadf; }
+  color: #EBE0C6; }
 
 .page-header-drawer .navbar-mainmenu .mainmenu-content {
-  background: #f5eadf; }
+  background: #EBE0C6; }
   @media (min-width: 1024px) {
     .page-header-drawer .navbar-mainmenu .mainmenu-content {
-      background: #f5eadf; }
+      background: #EBE0C6; }
       .page-header-drawer .navbar-mainmenu .mainmenu-content::after {
         display: none; } }
 
@@ -153,9 +182,9 @@ a {
   border-color: currentColor; }
 
 .btn-divided {
-  border-color: #f5eadf; }
+  border-color: #EBE0C6; }
   .btn-divided .b-subtitle {
-    color: #f5eadf; }
+    color: #EBE0C6; }
 
 /* 4. sections */
 .section-home .home-cover {
