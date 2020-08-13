@@ -1961,7 +1961,7 @@ input[type=email] {
     width: 100%;
     padding-bottom: 100%;
     transition: 0.5s ease-in-out; }
-    .media-tile .media-image .img, .media-tile .media-image img, .media-video{
+    .media-tile .media-image .img, .media-tile .media-image img, .media-video {
       width: 100%;
       height: 100%;
       position: absolute;
